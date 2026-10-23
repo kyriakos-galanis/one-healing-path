@@ -1,4 +1,21 @@
 ---
-// Redirect root / to /el/
-return Astro.redirect('/el/');
+const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
+const target = `${base}/el/`;
 ---
+<!doctype html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content={`0;url=${target}`}>
+  <link rel="canonical" href={target}>
+  <script define:vars={{ target }}>
+    window.location.replace(target);
+  </script>
+  <title>One Healing Path</title>
+</head>
+<body class="bg-[#ede9e3] text-center py-20 font-sans">
+  <p class="text-gray-600 text-sm">
+    Μετάβαση στο <a href={target} class="text-[#774737] underline font-semibold">One Healing Path</a>...
+  </p>
+</body>
+</html>

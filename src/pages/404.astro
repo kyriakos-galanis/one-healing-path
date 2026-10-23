@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
+const homeUrl = `${base}/el/`;
+---
+
+<Layout 
+  title="404 - Η σελίδα δεν βρέθηκε - One Healing"
+  description="Η σελίδα που αναζητάτε δεν υπάρχει."
+>
+  <div class="text-center py-16 px-4">
+    <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-[#f4f1ea] text-[#774737] mb-6">
+      <span class="text-3xl font-serif font-bold">404</span>
+    </div>
+    
+    <h1 class="text-2xl sm:text-3xl font-serif text-[#32393c] mb-3">
+      Η σελίδα δεν βρέθηκε
+    </h1>
+    
+    <p class="text-sm text-gray-600 max-w-md mx-auto mb-8 leading-relaxed">
+      Η σελίδα που αναζητήσατε είτε μετακινήθηκε είτε δεν είναι πλέον διαθέσιμη. 
+      Μπορείτε να επιστρέψετε στην αρχική σελίδα.
+    </p>
+
+    <div>
+      <a 
+        href={homeUrl}
+        class="inline-block bg-[#774737] hover:bg-[#5bbbc0] text-white text-xs font-semibold uppercase tracking-wider px-6 py-3 rounded transition-colors shadow-sm"
+      >
+        ← Επιστροφή στην Αρχική
+      </a>
+    </div>
+  </div>
+</Layout>
