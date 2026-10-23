@@ -6,6 +6,7 @@ import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()],
-  site: 'https://onehealingpath.gr',
+  site: 'https://kyriakos-galanis.github.io',
+  base: '/one-healing-path', // Replace with your repository name
   trailingSlash: 'ignore',
 });
