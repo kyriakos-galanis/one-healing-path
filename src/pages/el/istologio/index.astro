@@ -1,0 +1,33 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import ArticleCard from '../../../components/ArticleCard.astro';
+import siteData from '../../../data/siteData.json';
+
+const articles = siteData.articles;
+---
+
+<Layout 
+  title="Ιστολογιο - onehealing.gr"
+  description="Άρθρα, νέα και απόψεις για τη σωματική και ψυχική υγεία, τον βελονισμό και το Τάι τσι από τον Παναγιώτη Γκίνη."
+  breadcrumbs={[
+    { label: 'Αρχική', href: '/el/' },
+    { label: 'Ιστολόγιο' }
+  ]}
+>
+  <div class="space-y-6">
+    <header class="border-b border-[#ded8cf] pb-3 mb-6">
+      <h1 class="text-2xl sm:text-3xl font-serif text-[#774737]">
+        Ιστολόγιο
+      </h1>
+      <p class="text-xs sm:text-sm text-gray-600 mt-1">
+        Άρθρα, μελέτες και σκέψεις για την ψυχική υγεία, την κλασική ιατρική, το βελονισμό και τις ανατολικές τέχνες.
+      </p>
+    </header>
+
+    <div class="divide-y divide-[#e9e3d8]">
+      {articles.map((article) => (
+        <ArticleCard article={article} />
+      ))}
+    </div>
+  </div>
+</Layout>

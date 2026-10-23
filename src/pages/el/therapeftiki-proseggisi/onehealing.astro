@@ -1,0 +1,22 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import pagesContent from '../../../data/pagesContent.json';
+
+const page = pagesContent.onehealing;
+---
+
+<Layout 
+  title={page.title}
+  description={page.description}
+  breadcrumbs={page.breadcrumbs}
+>
+  <article class="bg-white">
+    <header class="border-b border-[#ded8cf] pb-3 mb-6">
+      <h1 class="text-2xl sm:text-3xl font-serif text-[#774737]">
+        {page.heading}
+      </h1>
+    </header>
+
+    <div class="article-content prose max-w-none text-gray-700 leading-relaxed text-sm sm:text-base space-y-4" set:html={page.contentHtml} />
+  </article>
+</Layout>

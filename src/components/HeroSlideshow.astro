@@ -1,0 +1,259 @@
+---
+const slides = [
+  {
+    image: '/images/home.jpg',
+    title: 'One Healing',
+    subtitle: 'Eνας ιστότοπος για την υγεία, σωματική και ψυχική.',
+    quote: '"Ωφελέειν ή μη βλάπτειν."',
+    author: 'Ιπποκράτης',
+  },
+  {
+    image: '/images/slide2.jpg',
+    title: '',
+    subtitle: '',
+    quote: '“Η αληθινή όραση βλέπει το μικρό και ασήμαντο. Η δύναμη γνωρίζει πως να ενδίδει”',
+    author: 'Λάο Τσε',
+  },
+  {
+    image: '/images/slide2.JPG',
+    title: '',
+    subtitle: '',
+    quote: '"Στο ταξίδι προς το φως, κάθε βήμα έχει το όφελος ενός βήματος, κάθε μέρα έχει την αποκομιδή μιας μέρας."',
+    author: 'Λίου Ι Μινγκ σε σχόλιο για το Ι Τσινγκ',
+  },
+  {
+    image: '/images/slide3.jpg',
+    title: '',
+    subtitle: '',
+    quote: '"Η δύναμη της κενότητας δεν προκύπτει από μία μόνο κατάσταση ή ένα μόνο συναίσθημα. Προκύπτει όταν όλα περιλαμβάνονται. Είναι σαν ένα παζλ."',
+    author: 'Μάνουελ Σοχ',
+  },
+];
+---
+
+<div class="border-b border-[#ded8cf] bg-[#fbf9f6]">
+  <div class="grid grid-cols-1 lg:grid-cols-3">
+    <!-- Left 2/3: Slideshow -->
+    <div class="lg:col-span-2 relative overflow-hidden bg-[#222] min-h-[340px] sm:min-h-[414px] flex flex-col justify-end group">
+      <div id="hero-slider" class="w-full h-full absolute inset-0">
+        {slides.map((s, index) => (
+          <div 
+            class={`slide-item absolute inset-0 transition-opacity duration-700 ease-in-out ${
+              index === 0 ? 'opacity-100 z-10' : 'opacity-0 z-0'
+            }`}
+            data-slide-index={index}
+          >
+            <img 
+              src={s.image} 
+              alt={s.title || `Slide ${index + 1}`} 
+              class="w-full h-full object-cover object-center"
+            />
+            <!-- Dark gradient overlay for text readability -->
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+            
+            <!-- Slide Caption -->
+            <div class="absolute bottom-0 left-0 right-0 p-6 sm:p-8 text-white z-20">
+              {s.title && (
+                <h2 class="text-2xl sm:text-3xl font-serif text-[#a3e9ec] mb-2 font-normal">
+                  {s.title}
+                </h2>
+              )}
+              {s.subtitle && (
+                <p class="text-xs sm:text-sm text-gray-200 mb-1">
+                  {s.subtitle}
+                </p>
+              )}
+              <blockquote class="text-sm sm:text-base italic text-gray-100 font-serif leading-relaxed">
+                {s.quote}
+              </blockquote>
+              {s.author && (
+                <p class="text-xs text-[#a3e9ec] mt-1 font-medium tracking-wide">
+                  — {s.author}
+                </p>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <!-- Carousel Navigation Buttons -->
+      <button 
+        id="slider-prev" 
+        class="absolute left-3 top-1/2 -translate-y-1/2 z-30 w-9 h-9 rounded-full bg-black/40 hover:bg-black/70 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity"
+        aria-label="Προηγούμενη διαφάνεια"
+      >
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+        </svg>
+      </button>
+      <button 
+        id="slider-next" 
+        class="absolute right-3 top-1/2 -translate-y-1/2 z-30 w-9 h-9 rounded-full bg-black/40 hover:bg-black/70 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity"
+        aria-label="Επόμενη διαφάνεια"
+      >
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+        </svg>
+      </button>
+
+      <!-- Carousel Dots Indicator -->
+      <div class="absolute bottom-2 right-4 z-30 flex gap-1.5">
+        {slides.map((_, i) => (
+          <button 
+            class={`slider-dot w-2.5 h-2.5 rounded-full transition-all ${
+              i === 0 ? 'bg-[#a3e9ec] w-5' : 'bg-white/60 hover:bg-white'
+            }`}
+            data-index={i}
+            aria-label={`Προβολή διαφάνειας ${i + 1}`}
+          ></button>
+        ))}
+      </div>
+    </div>
+
+    <!-- Right 1/3: 3 Feature Cards -->
+    <div class="lg:col-span-1 border-t lg:border-t-0 lg:border-l border-[#ded8cf] flex flex-col justify-between divide-y divide-[#e9e3d8] bg-[#fbf9f5]">
+      <!-- Box 1: Βελονισμός -->
+      <a 
+        href="/el/therapeftiki-proseggisi/velonismos" 
+        class="group p-5 hover:bg-[#f3ede3] transition-colors flex items-start gap-4 flex-1"
+      >
+        <div class="w-10 h-10 rounded-full bg-[#ebe4d8] text-[#774737] group-hover:bg-[#774737] group-hover:text-[#a3e9ec] flex items-center justify-center shrink-0 transition-colors shadow-xs">
+          <!-- Target icon -->
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" stroke-width="2"></circle>
+            <circle cx="12" cy="12" r="6" stroke-width="2"></circle>
+            <circle cx="12" cy="12" r="2" stroke-width="2"></circle>
+          </svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-base text-[#774737] group-hover:text-[#5e382b] flex items-center gap-1.5">
+            Βελονισμός
+            <span class="text-xs text-gray-400 group-hover:translate-x-1 transition-transform">→</span>
+          </h3>
+          <p class="text-xs text-gray-600 mt-1 leading-relaxed">
+            Με βάση τη μέθοδο Balance Method του dr Tan.
+          </p>
+        </div>
+      </a>
+
+      <!-- Box 2: Ψυχοθεραπεία -->
+      <a 
+        href="/el/therapeftiki-proseggisi/onehealing" 
+        class="group p-5 hover:bg-[#f3ede3] transition-colors flex items-start gap-4 flex-1"
+      >
+        <div class="w-10 h-10 rounded-full bg-[#ebe4d8] text-[#774737] group-hover:bg-[#774737] group-hover:text-[#a3e9ec] flex items-center justify-center shrink-0 transition-colors shadow-xs">
+          <!-- Users / Heart icon -->
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+          </svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-base text-[#774737] group-hover:text-[#5e382b] flex items-center gap-1.5">
+            Ψυχοθεραπεία
+            <span class="text-xs text-gray-400 group-hover:translate-x-1 transition-transform">→</span>
+          </h3>
+          <p class="text-xs text-gray-600 mt-1 leading-relaxed">
+            Aτομικές συνεδρίες και ομαδική θεραπεία. Trauma Informed Therapy. Sessions in English. Sesiones en Español.
+          </p>
+        </div>
+      </a>
+
+      <!-- Box 3: Ψυχιατρική -->
+      <a 
+        href="/el/therapeftiki-proseggisi/psychiatriki" 
+        class="group p-5 hover:bg-[#f3ede3] transition-colors flex items-start gap-4 flex-1"
+      >
+        <div class="w-10 h-10 rounded-full bg-[#ebe4d8] text-[#774737] group-hover:bg-[#774737] group-hover:text-[#a3e9ec] flex items-center justify-center shrink-0 transition-colors shadow-xs">
+          <!-- Medical / Brain icon -->
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-3-3v6m-9 3h18a2 2 0 002-2V6a2 2 0 00-2-2H3a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+          </svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-base text-[#774737] group-hover:text-[#5e382b] flex items-center gap-1.5">
+            Ψυχιατρική
+            <span class="text-xs text-gray-400 group-hover:translate-x-1 transition-transform">→</span>
+          </h3>
+          <p class="text-xs text-gray-600 mt-1 leading-relaxed">
+            Σύγχρονη, evidence based ιατρική στην υπηρεσία της ψυχικής υγείας.
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<script>
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('.slide-item');
+  const dots = document.querySelectorAll('.slider-dot');
+  const total = slides.length;
+  let interval: ReturnType<typeof setInterval> | null = null;
+
+  function showSlide(index: number) {
+    slides.forEach((s, i) => {
+      if (i === index) {
+        s.classList.remove('opacity-0', 'z-0');
+        s.classList.add('opacity-100', 'z-10');
+      } else {
+        s.classList.remove('opacity-100', 'z-10');
+        s.classList.add('opacity-0', 'z-0');
+      }
+    });
+
+    dots.forEach((d, i) => {
+      if (i === index) {
+        d.classList.remove('bg-white/60');
+        d.classList.add('bg-[#a3e9ec]', 'w-5');
+      } else {
+        d.classList.remove('bg-[#a3e9ec]', 'w-5');
+        d.classList.add('bg-white/60');
+      }
+    });
+    currentSlide = index;
+  }
+
+  function nextSlide() {
+    showSlide((currentSlide + 1) % total);
+  }
+
+  function prevSlide() {
+    showSlide((currentSlide - 1 + total) % total);
+  }
+
+  function startTimer() {
+    if (!interval) {
+      interval = setInterval(nextSlide, 7000);
+    }
+  }
+
+  function stopTimer() {
+    if (interval) {
+      clearInterval(interval);
+      interval = null;
+    }
+  }
+
+  const prevBtn = document.getElementById('slider-prev');
+  const nextBtn = document.getElementById('slider-next');
+
+  if (prevBtn) prevBtn.addEventListener('click', () => { prevSlide(); stopTimer(); startTimer(); });
+  if (nextBtn) nextBtn.addEventListener('click', () => { nextSlide(); stopTimer(); startTimer(); });
+
+  dots.forEach((dot) => {
+    dot.addEventListener('click', () => {
+      const idx = Number(dot.getAttribute('data-index'));
+      showSlide(idx);
+      stopTimer();
+      startTimer();
+    });
+  });
+
+  const heroSlider = document.getElementById('hero-slider');
+  if (heroSlider) {
+    heroSlider.addEventListener('mouseenter', stopTimer);
+    heroSlider.addEventListener('mouseleave', startTimer);
+  }
+
+  startTimer();
+</script>

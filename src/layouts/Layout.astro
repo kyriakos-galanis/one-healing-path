@@ -1,0 +1,93 @@
+---
+import Header from '../components/Header.astro';
+import Navbar from '../components/Navbar.astro';
+import Sidebar from '../components/Sidebar.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  keywords?: string;
+  showSidebar?: boolean;
+  breadcrumbs?: Array<{ label: string; href?: string }>;
+}
+
+const {
+  title,
+  description = "One Healing - Ιατρός Παναγιώτης Γκίνης. Βελονισμός, Ψυχοθεραπεία, Ψυχιατρική",
+  keywords = "βελονισμός, ψυχοθεραπεία, ψυχιατρική, one healing, τάι τσι, αθήνα",
+  showSidebar = true,
+  breadcrumbs = [],
+} = Astro.props;
+
+const currentPath = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="el">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="keywords" content={keywords} />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="canonical" href={Astro.url.href} />
+  </head>
+  <body class="bg-[#ede9e3] text-[#444444] min-h-screen antialiased flex flex-col items-center">
+    <!-- Main Sheet Container (Boxed Layout) -->
+    <div class="w-full max-w-[1040px] bg-white tm-sheet my-0 sm:my-4 flex flex-col min-h-screen shadow-md">
+      <!-- Header -->
+      <Header currentPath={currentPath} />
+
+      <!-- Navbar -->
+      <Navbar currentPath={currentPath} />
+
+      <!-- Optional Hero / Slider Slot -->
+      <slot name="hero" />
+
+      <!-- Breadcrumb Bar -->
+      {breadcrumbs.length > 0 && (
+        <div class="px-4 sm:px-8 py-2.5 bg-[#fbf9f6] border-b border-[#e9e3d8] text-xs text-gray-500 flex items-center gap-1.5 flex-wrap">
+          {breadcrumbs.map((b, idx) => (
+            <div class="flex items-center gap-1.5">
+              {idx > 0 && <span class="text-gray-400">/</span>}
+              {b.href ? (
+                <a href={b.href} class="text-[#774737] hover:underline">
+                  {b.label}
+                </a>
+              ) : (
+                <span class="text-gray-600 font-medium">{b.label}</span>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
+
+      <!-- Main Body Area -->
+      <main class="flex-1 px-4 sm:px-8 py-6">
+        {showSidebar ? (
+          <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+            <!-- Left Main Column (3/4) -->
+            <div class="lg:col-span-3">
+              <slot />
+            </div>
+
+            <!-- Right Sidebar Column (1/4) -->
+            <div class="lg:col-span-1">
+              <Sidebar />
+            </div>
+          </div>
+        ) : (
+          <div class="w-full">
+            <slot />
+          </div>
+        )}
+      </main>
+
+      <!-- Footer -->
+      <Footer />
+    </div>
+  </body>
+</html>

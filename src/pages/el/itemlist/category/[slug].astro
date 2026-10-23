@@ -1,0 +1,46 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import ArticleCard from '../../../../components/ArticleCard.astro';
+import siteData from '../../../../data/siteData.json';
+
+export function getStaticPaths() {
+  const categories = siteData.categories;
+  return categories.map((cat) => ({
+    params: { slug: cat.slug },
+    props: { 
+      category: cat,
+      articles: siteData.articles.filter((a) => a.category_slug === cat.slug),
+    },
+  }));
+}
+
+const { category, articles } = Astro.props;
+---
+
+<Layout 
+  title={`${category.title} - onehealing.gr`}
+  description={`Άρθρα στην κατηγορία ${category.title} - One Healing.`}
+  breadcrumbs={[
+    { label: 'Αρχική', href: '/el/' },
+    { label: 'Ιστολόγιο', href: '/el/istologio' },
+    { label: `Κατηγορία: ${category.title}` }
+  ]}
+>
+  <div class="space-y-6">
+    <header class="border-b border-[#ded8cf] pb-3 mb-6">
+      <span class="text-xs uppercase tracking-wider text-gray-500">Κατηγορία</span>
+      <h1 class="text-2xl sm:text-3xl font-serif text-[#774737] mt-1">
+        {category.title}
+      </h1>
+      <p class="text-xs text-gray-500 mt-1">
+        Βρέθηκαν {articles.length} άρθρα
+      </p>
+    </header>
+
+    <div class="divide-y divide-[#e9e3d8]">
+      {articles.map((article) => (
+        <ArticleCard article={article} />
+      ))}
+    </div>
+  </div>
+</Layout>

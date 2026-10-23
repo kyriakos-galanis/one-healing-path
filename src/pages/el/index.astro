@@ -1,0 +1,33 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import HeroSlideshow from '../../components/HeroSlideshow.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import siteData from '../../data/siteData.json';
+
+const articles = siteData.articles;
+---
+
+<Layout 
+  title="Αρχικη - onehealing.gr"
+  description="One Healing - Ιατρός Παναγιώτης Γκίνης. Βελονισμός Balance Method Dr Tan, Ψυχοθεραπεία Trauma Informed, Ψυχιατρική."
+  breadcrumbs={[{ label: 'Αρχική' }]}
+>
+  <div slot="hero">
+    <HeroSlideshow />
+  </div>
+
+  <div class="space-y-6">
+    <div class="border-b border-[#ded8cf] pb-2 mb-6">
+      <h1 class="text-xl sm:text-2xl font-serif text-[#774737]">
+        Τελευταίες Δημοσιεύσεις
+      </h1>
+    </div>
+
+    <!-- Article Listing -->
+    <div class="divide-y divide-[#e9e3d8]">
+      {articles.map((article) => (
+        <ArticleCard article={article} />
+      ))}
+    </div>
+  </div>
+</Layout>

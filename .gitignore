@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Production build output
+dist/
+
+# Astro cache & environment
+.astro/
+.env
+.env.production
+.env.development
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db

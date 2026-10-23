@@ -1,0 +1,17 @@
+{
+  "name": "onehealingpath",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node cli.js dev",
+    "start": "node cli.js dev",
+    "build": "node cli.js build",
+    "preview": "node cli.js preview",
+    "astro": "node cli.js"
+  },
+  "dependencies": {
+    "astro": "^5.1.0",
+    "@astrojs/tailwind": "^5.1.4",
+    "tailwindcss": "^3.4.17"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "title": "Επικοινωνια - onehealing.gr",
+  "meta_description": "",
+  "meta_keywords": "",
+  "breadcrumbs": [
+    "Αρχική",
+    "Επικοινωνια"
+  ],
+  "headings": [
+    {
+      "level": "h2",
+      "text": "Παναγιώτης Γκίνης MD, CAc"
+    },
+    {
+      "level": "h3",
+      "text": "Χρήσιμοι Σύνδεσμοι"
+    },
+    {
+      "level": "h3",
+      "text": "Θεραπευτική Προσέγγιση"
+    },
+    {
+      "level": "h3",
+      "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+    }
+  ],
+  "clean_html": "<main class=\"tm-content\">\n<div id=\"system-message-container\">\n</div>\n<div class=\"contact\" itemscope=\"\" itemtype=\"https://schema.org/Person\">\n<div class=\"page-header\">\n<h2>\n<span class=\"contact-name\" itemprop=\"name\">Παναγιώτης Γκίνης MD, CAc</span>\n</h2>\n</div>\n<div class=\"accordion\" id=\"slide-contact\"> <div class=\"accordion-group\"><div class=\"accordion-heading\"><strong><a class=\"accordion-toggle\" data-toggle=\"collapse\" href=\"#basic-details\">Επαφή</a></strong></div><div class=\"accordion-body collapse in\" id=\"basic-details\"><div class=\"accordion-inner\">\n<dl class=\"contact-address dl-horizontal\" itemprop=\"address\" itemscope=\"\" itemtype=\"https://schema.org/PostalAddress\">\n<dt>\n<span class=\"jicons-icons\">\n<img alt=\"Διεύθυνση: \" src=\"/media/contacts/images/con_address.png\"/> </span>\n</dt>\n<dd>\n<span class=\"contact-street\" itemprop=\"streetAddress\">\n\t\t\t\t\tΣτην παρακάτω διεύθυνση ή με την έτοιμη φόρμα επικοινωνίας, μπορείτε να μοιραστείτε την άποψή σας, κάποιο σχόλιο, απορίες για το onehealing.gr ή να στείλετε κάποιο κείμενο με ανάλογη θεματολογία που θα θέλατε να δείτε δημοσιευμένο. Ευχαριστούμε πολύ για τη συμμετοχή σας.\t\t\t\t\t<br/>\n</span>\n</dd>\n<dt>\n<span class=\"jicons-icons\" itemprop=\"email\">\n<img alt=\"Email: \" src=\"/media/contacts/images/emailButton.png\"/> </span>\n</dt>\n<dd>\n<span class=\"contact-emailto\">\n<span id=\"cloakfcb45d8fd30d6747d3d0bdb108c4037c\">Αυτή η διεύθυνση ηλεκτρονικού ταχυδρομείου προστατεύεται από τους αυτοματισμούς αποστολέων ανεπιθύμητων μηνυμάτων. Χρειάζεται να ενεργοποιήσετε τη JavaScript για να μπορέσετε να τη δείτε.</span><script type=\"text/javascript\">\n\t\t\t\tdocument.getElementById('cloakfcb45d8fd30d6747d3d0bdb108c4037c').innerHTML = '';\n\t\t\t\tvar prefix = '&#109;a' + 'i&#108;' + '&#116;o';\n\t\t\t\tvar path = 'hr' + 'ef' + '=';\n\t\t\t\tvar addyfcb45d8fd30d6747d3d0bdb108c4037c = 'gk&#105;n&#105;sp&#97;n' + '&#64;';\n\t\t\t\taddyfcb45d8fd30d6747d3d0bdb108c4037c = addyfcb45d8fd30d6747d3d0bdb108c4037c + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';\n\t\t\t\tvar addy_textfcb45d8fd30d6747d3d0bdb108c4037c = 'gk&#105;n&#105;sp&#97;n' + '&#64;' + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';document.getElementById('cloakfcb45d8fd30d6747d3d0bdb108c4037c').innerHTML += '<a ' + path + '\\'' + prefix + ':' + addyfcb45d8fd30d6747d3d0bdb108c4037c + '\\'>'+addy_textfcb45d8fd30d6747d3d0bdb108c4037c+'<\\/a>';\n\t\t</script> </span>\n</dd>\n</dl>\n</div></div></div>\n<div class=\"accordion-group\"><div class=\"accordion-heading\"><strong><a class=\"accordion-toggle collapsed\" data-toggle=\"collapse\" href=\"#display-form\">Φόρμα Επικοινωνίας</a></strong></div><div class=\"accordion-body collapse\" id=\"display-form\"><div class=\"accordion-inner\">\n<div class=\"contact-form\">\n<form action=\"/el/epikoinonia\" class=\"form-validate form-horizontal well\" id=\"contact-form\" method=\"post\">\n<fieldset>\n<legend>Αποστολή Email</legend>\n<div class=\"control-group field-spacer\">\n<div class=\"control-label\">\n<span class=\"spacer\"><span class=\"before\"></span><span class=\"text\"><label class=\"\" id=\"jform_spacer-lbl\"><strong class=\"red\">*</strong> Υποχρεωτικό πεδίο</label></span><span class=\"after\"></span></span> </div>\n<div class=\"controls\"> </div>\n</div>\n<div class=\"control-group\">\n<div class=\"control-label\">\n<label class=\"hasPopover required\" data-content=\"Το όνομά σας\" for=\"jform_contact_name\" id=\"jform_contact_name-lbl\" title=\"Όνομα\">\n\tΌνομα<span class=\"star\"> *</span></label>\n</div>\n<div class=\"controls\"><input aria-required=\"true\" class=\"required\" id=\"jform_contact_name\" name=\"jform[contact_name]\" required=\"\" size=\"30\" type=\"text\" value=\"\"/>\n</div>\n</div>\n<div class=\"control-group\">\n<div class=\"control-label\">\n<label class=\"hasPopover required\" data-content=\"Διεύθυνση ηλεκτρονικού ταχυδρομείου της επαφής.\" for=\"jform_contact_email\" id=\"jform_contact_email-lbl\" title=\"Ηλεκτρονικό ταχυδρομείο\">\n\tΗλεκτρονικό ταχυδρομείο<span class=\"star\"> *</span></label>\n</div>\n<div class=\"controls\"><input aria-required=\"true\" autocomplete=\"email\" class=\"validate-email required\" id=\"jform_contact_email\" name=\"jform[contact_email]\" required=\"\" size=\"30\" type=\"email\" value=\"\"/></div>\n</div>\n<div class=\"control-group\">\n<div class=\"control-label\">\n<label class=\"hasPopover required\" data-content=\"Πληκτρολογείστε το θέμα του μηνύματός σας εδώ.\" for=\"jform_contact_emailmsg\" id=\"jform_contact_emailmsg-lbl\" title=\"Θέμα\">\n\tΘέμα<span class=\"star\"> *</span></label>\n</div>\n<div class=\"controls\"><input aria-required=\"true\" class=\"required\" id=\"jform_contact_emailmsg\" name=\"jform[contact_subject]\" required=\"\" size=\"60\" type=\"text\" value=\"\"/>\n</div>\n</div>\n<div class=\"control-group\">\n<div class=\"control-label\">\n<label class=\"hasPopover required\" data-content=\"Πληκτρολογείστε το μήνυμά σας.\" for=\"jform_contact_message\" id=\"jform_contact_message-lbl\" title=\"Μήνυμα\">\n\tΜήνυμα<span class=\"star\"> *</span></label>\n</div>\n<div class=\"controls\"><textarea aria-required=\"true\" class=\"required\" cols=\"50\" id=\"jform_contact_message\" name=\"jform[contact_message]\" required=\"\" rows=\"10\"></textarea></div>\n</div>\n</fieldset>\n<fieldset>\n<div class=\"control-group\">\n<div class=\"control-label\">\n<label class=\"hasPopover required\" data-content=\"Εισάγετε το κείμενο που βλέπετε στην εικόνα.\" for=\"jform_captcha\" id=\"jform_captcha-lbl\" title=\"Αποκλεισμός Αυτοματισμών (Captcha)\">\n\tΑποκλεισμός Αυτοματισμών (Captcha)<span class=\"star\"> *</span></label>\n</div>\n<div class=\"controls\"><div class=\"required g-recaptcha\" data-callback=\"\" data-error-callback=\"\" data-expired-callback=\"\" data-sitekey=\"6LczgFoUAAAAAN_HgA_rdOYckHsWrY5a2qq3i8Wg\" data-size=\"normal\" data-tabindex=\"0\" data-theme=\"light\" id=\"jform_captcha\"></div></div>\n</div>\n</fieldset>\n<div class=\"control-group\">\n<div class=\"controls\">\n<button class=\"btn btn-primary validate\" type=\"submit\">Αποστολή Μηνύματος</button>\n<input name=\"option\" type=\"hidden\" value=\"com_contact\"/>\n<input name=\"task\" type=\"hidden\" value=\"contact.submit\"/>\n<input name=\"return\" type=\"hidden\" value=\"\"/>\n<input name=\"id\" type=\"hidden\" value=\"1:panagiotis-ginis\"/>\n<input name=\"3cd68c7fb2b434b73b6aa93663223876\" type=\"hidden\" value=\"1\"/> </div>\n</div>\n</form>\n</div>\n</div></div></div>\n</div>\n</div>\n</main>",
+  "markdown": "Παναγιώτης Γκίνης MD, CAc\n-------------------------\n\n**[Επαφή](#basic-details)**\n\n![Διεύθυνση: ](/media/contacts/images/con_address.png)\n:   Στην παρακάτω διεύθυνση ή με την έτοιμη φόρμα επικοινωνίας, μπορείτε να μοιραστείτε την άποψή σας, κάποιο σχόλιο, απορίες για το onehealing.gr ή να στείλετε κάποιο κείμενο με ανάλογη θεματολογία που θα θέλατε να δείτε δημοσιευμένο. Ευχαριστούμε πολύ για τη συμμετοχή σας.\n\n![Email: ](/media/contacts/images/emailButton.png)\n:   Αυτή η διεύθυνση ηλεκτρονικού ταχυδρομείου προστατεύεται από τους αυτοματισμούς αποστολέων ανεπιθύμητων μηνυμάτων. Χρειάζεται να ενεργοποιήσετε τη JavaScript για να μπορέσετε να τη δείτε.\n\n**[Φόρμα Επικοινωνίας](#display-form)**\n\nΑποστολή Email\n\n**\\*** Υποχρεωτικό πεδίο\n\nΌνομα \\*\n\nΗλεκτρονικό ταχυδρομείο \\*\n\nΘέμα \\*\n\nΜήνυμα \\*\n\n\n\nΑποκλεισμός Αυτοματισμών (Captcha) \\*\n\nΑποστολή Μηνύματος",
+  "internal_links": [
+    "http://www.onehealingpath.gr/",
+    "http://www.onehealingpath.gr/el/",
+    "http://www.onehealingpath.gr/el/epikoinonia",
+    "http://www.onehealingpath.gr/el/istologio",
+    "http://www.onehealingpath.gr/el/prosopikes-martyries",
+    "http://www.onehealingpath.gr/el/syxnes-erotiseis",
+    "http://www.onehealingpath.gr/el/therapeftiki-proseggisi",
+    "http://www.onehealingpath.gr/el/therapeftiki-proseggisi/onehealing",
+    "http://www.onehealingpath.gr/el/therapeftiki-proseggisi/psychiatriki",
+    "http://www.onehealingpath.gr/el/therapeftiki-proseggisi/velonismos",
+    "http://www.onehealingpath.gr/el/viografiko",
+    "http://www.onehealingpath.gr/index.php?option=com_contact&view=contact&id=1&Itemid=584&lang=el"
+  ],
+  "external_links": [
+    "http://www.chenxiaowang.com",
+    "http://www.choros-space.gr/choros-space",
+    "http://www.optioncomputers.gr",
+    "https://www.choros-space.gr/choros-space/p14/Time-Therapy.html",
+    "https://www.facebook.com/profile.php?id=61552501891015",
+    "https://www.siyuanbalance.com"
+  ],
+  "images": [
+    "http://www.onehealingpath.gr/images/logo/One_Healing___Logo___mirror___transparent_background1.png",
+    "http://www.onehealingpath.gr/media/contacts/images/con_address.png",
+    "http://www.onehealingpath.gr/media/contacts/images/emailButton.png"
+  ],
+  "css_files": [
+    "http://www.onehealingpath.gr/cache/widgetkit/widgetkit-63f999f4.css",
+    "http://www.onehealingpath.gr/plugins/system/jce/css/content.css?aa754b1f19c7df490be4b958cf085e7c",
+    "http://www.onehealingpath.gr/plugins/system/jcemediabox/css/jcemediabox.min.css?0072da39200af2a5f0dbaf1a155242cd",
+    "http://www.onehealingpath.gr/templates/saffron/css/custom.css",
+    "http://www.onehealingpath.gr/templates/saffron/styles/yassas/css/bootstrap.css",
+    "http://www.onehealingpath.gr/templates/saffron/styles/yassas/css/theme.css"
+  ],
+  "canonical_url": "http://www.onehealingpath.gr/index.php?option=com_contact&view=contact&id=1&Itemid=584&lang=el",
+  "slug": "index.php__option_com_contact_view_contact_id_1_Itemid_584_lang_el",
+  "status": 200
+}

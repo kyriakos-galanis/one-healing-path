@@ -1,0 +1,122 @@
+---
+// Static interactive-looking calendar data for sidebar
+const daysOfWeek = ['Κ', 'Δ', 'Τ', 'Τ', 'Π', 'Π', 'Σ'];
+// Days grid: previous month padding (27-30) + current month (1-31)
+const prevMonthDays = [27, 28, 29, 30];
+const currentMonthDays = Array.from({ length: 31 }, (_, i) => i + 1);
+const activeDay = 21; // original snapshot day was May 21
+---
+
+<aside class="w-full space-y-6">
+  <!-- Calendar Widget -->
+  <div class="bg-[#faf8f5] border border-[#e5dfd5] rounded p-4 text-xs shadow-xs">
+    <div class="flex items-center justify-between mb-3 text-center border-b border-[#ded7cb] pb-2">
+      <span class="text-gray-400 font-bold px-1 select-none">« &lt;</span>
+      <span class="font-semibold text-[#774737] text-sm">Μάιος 2025</span>
+      <span class="text-gray-400 font-bold px-1 select-none">&gt; »</span>
+    </div>
+
+    <!-- Calendar Table -->
+    <table class="w-full text-center border-collapse">
+      <thead>
+        <tr class="text-gray-500 font-medium">
+          {daysOfWeek.map((day, idx) => (
+            <th class={`py-1 ${idx === 0 ? 'text-[#b8533b]' : idx === 6 ? 'text-[#774737]' : ''}`}>
+              {day}
+            </th>
+          ))}
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="text-gray-400">
+          {prevMonthDays.map((d) => (
+            <td class="py-1 text-gray-300">{d}</td>
+          ))}
+          {currentMonthDays.slice(0, 3).map((d) => (
+            <td class="py-1 hover:bg-[#eadecf] rounded transition-colors cursor-pointer text-gray-700">
+              {d}
+            </td>
+          ))}
+        </tr>
+        <tr>
+          {currentMonthDays.slice(3, 10).map((d) => (
+            <td class="py-1 hover:bg-[#eadecf] rounded transition-colors cursor-pointer text-gray-700">
+              {d}
+            </td>
+          ))}
+        </tr>
+        <tr>
+          {currentMonthDays.slice(10, 17).map((d) => (
+            <td class="py-1 hover:bg-[#eadecf] rounded transition-colors cursor-pointer text-gray-700">
+              {d}
+            </td>
+          ))}
+        </tr>
+        <tr>
+          {currentMonthDays.slice(17, 24).map((d) => (
+            <td class={`py-1 rounded transition-colors cursor-pointer ${
+              d === activeDay 
+                ? 'bg-[#774737] text-white font-bold' 
+                : 'hover:bg-[#eadecf] text-gray-700'
+            }`}>
+              {d}
+            </td>
+          ))}
+        </tr>
+        <tr>
+          {currentMonthDays.slice(24, 31).map((d) => (
+            <td class="py-1 hover:bg-[#eadecf] rounded transition-colors cursor-pointer text-gray-700">
+              {d}
+            </td>
+          ))}
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Tags Widget -->
+  <div class="bg-[#faf8f5] border border-[#e5dfd5] rounded p-4 shadow-xs">
+    <h3 class="text-sm font-semibold text-[#774737] border-b border-[#ded7cb] pb-2 mb-3">
+      Ετικέτες
+    </h3>
+    <div class="flex flex-wrap gap-2 text-xs">
+      <a 
+        href="/el/itemlist/tag/velonismos" 
+        class="bg-[#ebe4d8] text-[#774737] hover:bg-[#774737] hover:text-white px-2.5 py-1 rounded transition-colors"
+        title="1 άρθρα με την ετικέτα Βελονισμός"
+      >
+        Βελονισμός
+      </a>
+      <a 
+        href="/el/itemlist/tag/tai-tsi" 
+        class="bg-[#ebe4d8] text-[#774737] hover:bg-[#774737] hover:text-white px-2.5 py-1 rounded transition-colors"
+        title="2 άρθρα με την ετικέτα Τάι τσι"
+      >
+        Τάι τσι
+      </a>
+    </div>
+  </div>
+
+  <!-- Quick Info Widget -->
+  <div class="bg-[#f8f5ee] border border-[#e5dfd5] rounded p-4 text-xs shadow-xs text-gray-700">
+    <h3 class="text-sm font-semibold text-[#774737] border-b border-[#ded7cb] pb-2 mb-2">
+      Ιατρείο One Healing
+    </h3>
+    <p class="font-medium text-[#32393c]">Παναγιώτης Γκίνης MD, CAc</p>
+    <p class="text-gray-500 mt-1">Ιατρός - Βελονισμός - Ψυχοθεραπεία</p>
+    <div class="mt-3 pt-3 border-t border-[#e2dcce] flex flex-col gap-1 text-[11px]">
+      <a href="/el/epikoinonia" class="text-[#774737] hover:text-[#5bbbc0] font-medium flex items-center gap-1.5">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+        </svg>
+        gkinispan@gmail.com
+      </a>
+      <a href="/el/syxnes-erotiseis" class="text-[#774737] hover:text-[#5bbbc0] flex items-center gap-1.5">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+        Συχνές Ερωτήσεις (FAQ)
+      </a>
+    </div>
+  </div>
+</aside>

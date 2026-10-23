@@ -1,0 +1,312 @@
+{
+  "/images/logo/logo.png": {
+    "src": "/images/logo/logo.png",
+    "alt": "logo",
+    "title": "",
+    "dimensions": "230x126",
+    "used_in_pages": [
+      "el__epikoinonia",
+      "el__istologio",
+      "el__item__13-prosopika",
+      "el__item__14-tai-chi",
+      "el__item__7-velonismos-i-farmaka-mia-erotisi-pagida",
+      "el__item__9-interstitium",
+      "el__itemlist__category__8-pki",
+      "el__itemlist__user__655-panagiwthsgkinhsmdcac",
+      "el__prosopikes-martyries",
+      "el__therapeftiki-proseggisi",
+      "el__therapeftiki-proseggisi__onehealing",
+      "el__therapeftiki-proseggisi__psychiatriki",
+      "el__therapeftiki-proseggisi__velonismos",
+      "el__viografiko",
+      "el_itemlist_tag_tai_tsi",
+      "el_itemlist_tag_velonismos"
+    ]
+  },
+  "/images/logo/OneHealingPath___Logo-2_copy.png": {
+    "src": "/images/logo/OneHealingPath___Logo-2_copy.png",
+    "alt": "OneHealingPath Logo 2 copy",
+    "title": "",
+    "dimensions": "117x55",
+    "used_in_pages": [
+      "el__epikoinonia",
+      "el__istologio",
+      "el__item__13-prosopika",
+      "el__item__14-tai-chi",
+      "el__item__7-velonismos-i-farmaka-mia-erotisi-pagida",
+      "el__item__9-interstitium",
+      "el__itemlist__category__7-ska",
+      "el__itemlist__category__8-pki",
+      "el__itemlist__user__655-panagiwthsgkinhsmdcac",
+      "el__prosopikes-martyries",
+      "el__therapeftiki-proseggisi",
+      "el__therapeftiki-proseggisi__onehealing",
+      "el__therapeftiki-proseggisi__psychiatriki",
+      "el__therapeftiki-proseggisi__velonismos",
+      "el__viografiko",
+      "el_itemlist_tag_tai_tsi",
+      "el_itemlist_tag_velonismos"
+    ]
+  },
+  "/media/contacts/images/con_address.png": {
+    "src": "/media/contacts/images/con_address.png",
+    "alt": "Διεύθυνση: ",
+    "title": "",
+    "dimensions": "",
+    "used_in_pages": [
+      "el__epikoinonia",
+      "index.php__option_com_contact_view_contact_id_1_Itemid_584_lang_el"
+    ]
+  },
+  "/media/contacts/images/emailButton.png": {
+    "src": "/media/contacts/images/emailButton.png",
+    "alt": "Email: ",
+    "title": "",
+    "dimensions": "",
+    "used_in_pages": [
+      "el__epikoinonia",
+      "index.php__option_com_contact_view_contact_id_1_Itemid_584_lang_el"
+    ]
+  },
+  "/images/P5111555_copy.jpg": {
+    "src": "/images/P5111555_copy.jpg",
+    "alt": "",
+    "title": "",
+    "dimensions": "",
+    "used_in_pages": [
+      "el__istologio",
+      "el__item__14-tai-chi",
+      "el__itemlist__category__7-ska",
+      "el__itemlist__user__655-panagiwthsgkinhsmdcac",
+      "el_itemlist_tag_tai_tsi",
+      "home"
+    ]
+  },
+  "/images/P8102711_copy.JPG": {
+    "src": "/images/P8102711_copy.JPG",
+    "alt": "P8102711 copy",
+    "title": "",
+    "dimensions": "",
+    "used_in_pages": [
+      "el__istologio",
+      "el__item__13-prosopika",
+      "el__itemlist__category__7-ska",
+      "el__itemlist__user__655-panagiwthsgkinhsmdcac",
+      "el_itemlist_tag_tai_tsi",
+      "home"
+    ]
+  },
+  "/media/k2/items/cache/d61d44254608dd06ccdd2ff02982d14d_M.jpg": {
+    "src": "/media/k2/items/cache/d61d44254608dd06ccdd2ff02982d14d_M.jpg",
+    "alt": "Interstitium, πόσο &#039;νέα&#039; είναι η νέα ανακάλυψη της Ιατρικής;",
+    "title": "",
+    "dimensions": "",
+    "used_in_pages": [
+      "el__istologio",
+      "home"
+    ]
+  },
+  "/media/k2/items/cache/9caa2793658f3cc387f216157300b1ce_M.jpg": {
+    "src": "/media/k2/items/cache/9caa2793658f3cc387f216157300b1ce_M.jpg",
+    "alt": "Βελονισμός ή Φάρμακα; …Μια ερώτηση παγίδα",
+    "title": "",
+    "dimensions": "",
+    "used_in_pages": [
+      "el__istologio",
+      "home"
+    ]
+  },
+  "/images/home.jpg": {
+    "src": "/images/home.jpg",
+    "alt": "home",
+    "title": "",
+    "dimensions": "780x414",
+    "used_in_pages": [
+      "el__item__13-prosopika",
+      "el__item__14-tai-chi",
+      "el__item__7-velonismos-i-farmaka-mia-erotisi-pagida",
+      "el__item__9-interstitium",
+      "el__itemlist__category__7-ska",
+      "el__itemlist__category__8-pki",
+      "el__itemlist__user__655-panagiwthsgkinhsmdcac",
+      "el_itemlist_tag_tai_tsi",
+      "el_itemlist_tag_velonismos",
+      "home"
+    ]
+  },
+  "/images/slide2.jpg": {
+    "src": "/images/slide2.jpg",
+    "alt": "slide2",
+    "title": "",
+    "dimensions": "",
+    "used_in_pages": [
+      "el__item__13-prosopika",
+      "el__item__14-tai-chi",
+      "el__item__7-velonismos-i-farmaka-mia-erotisi-pagida",
+      "el__item__9-interstitium",
+      "el__itemlist__category__7-ska",
+      "el__itemlist__category__8-pki",
+      "el__itemlist__user__655-panagiwthsgkinhsmdcac",
+      "el_itemlist_tag_tai_tsi",
+      "el_itemlist_tag_velonismos"
+    ]
+  },
+  "/images/logo/P8102740.JPG": {
+    "src": "/images/logo/P8102740.JPG",
+    "alt": "P8102740",
+    "title": "",
+    "dimensions": "",
+    "used_in_pages": [
+      "el__item__13-prosopika",
+      "el__item__14-tai-chi",
+      "el__item__7-velonismos-i-farmaka-mia-erotisi-pagida",
+      "el__item__9-interstitium",
+      "el__itemlist__category__7-ska",
+      "el__itemlist__category__8-pki",
+      "el__itemlist__user__655-panagiwthsgkinhsmdcac",
+      "el_itemlist_tag_tai_tsi",
+      "el_itemlist_tag_velonismos"
+    ]
+  },
+  "/images/slide3.jpg": {
+    "src": "/images/slide3.jpg",
+    "alt": "slide3",
+    "title": "",
+    "dimensions": "",
+    "used_in_pages": [
+      "el__item__13-prosopika",
+      "el__item__14-tai-chi",
+      "el__item__7-velonismos-i-farmaka-mia-erotisi-pagida",
+      "el__item__9-interstitium",
+      "el__itemlist__category__7-ska",
+      "el__itemlist__category__8-pki",
+      "el__itemlist__user__655-panagiwthsgkinhsmdcac",
+      "el_itemlist_tag_tai_tsi",
+      "el_itemlist_tag_velonismos",
+      "home"
+    ]
+  },
+  "/components/com_k2/images/placeholder/user.png": {
+    "src": "/components/com_k2/images/placeholder/user.png",
+    "alt": "Παναγιώτης Γκίνης MD, CAc",
+    "title": "",
+    "dimensions": "",
+    "used_in_pages": [
+      "el__item__13-prosopika",
+      "el__item__14-tai-chi",
+      "el__item__7-velonismos-i-farmaka-mia-erotisi-pagida",
+      "el__itemlist__user__655-panagiwthsgkinhsmdcac"
+    ]
+  },
+  "/media/k2/items/cache/9caa2793658f3cc387f216157300b1ce_L.jpg": {
+    "src": "/media/k2/items/cache/9caa2793658f3cc387f216157300b1ce_L.jpg",
+    "alt": "Βελονισμός ή Φάρμακα; …Μια ερώτηση παγίδα",
+    "title": "",
+    "dimensions": "",
+    "used_in_pages": [
+      "el__item__7-velonismos-i-farmaka-mia-erotisi-pagida",
+      "el__itemlist__category__8-pki"
+    ]
+  },
+  "/media/k2/items/cache/d61d44254608dd06ccdd2ff02982d14d_L.jpg": {
+    "src": "/media/k2/items/cache/d61d44254608dd06ccdd2ff02982d14d_L.jpg",
+    "alt": "Interstitium, πόσο &#039;νέα&#039; είναι η νέα ανακάλυψη της Ιατρικής;",
+    "title": "",
+    "dimensions": "",
+    "used_in_pages": [
+      "el__item__9-interstitium"
+    ]
+  },
+  "/images/OneHealingPath___Logo-1.png": {
+    "src": "/images/OneHealingPath___Logo-1.png",
+    "alt": "OneHealingPath Logo 1",
+    "title": "",
+    "dimensions": "",
+    "used_in_pages": [
+      "el__itemlist__category__7-ska"
+    ]
+  },
+  "/media/k2/items/cache/d61d44254608dd06ccdd2ff02982d14d_Generic.jpg": {
+    "src": "/media/k2/items/cache/d61d44254608dd06ccdd2ff02982d14d_Generic.jpg",
+    "alt": "Interstitium, πόσο &#039;νέα&#039; είναι η νέα ανακάλυψη της Ιατρικής;",
+    "title": "",
+    "dimensions": "",
+    "used_in_pages": [
+      "el__itemlist__user__655-panagiwthsgkinhsmdcac"
+    ]
+  },
+  "/images/logo/One_Healing___Logo___mirror___transparent_background1.png": {
+    "src": "/images/logo/One_Healing___Logo___mirror___transparent_background1.png",
+    "alt": "One Healing Logo mirror transparent background1",
+    "title": "",
+    "dimensions": "230x126",
+    "used_in_pages": [
+      "el__syxnes-erotiseis",
+      "home",
+      "index.php__option_com_contact_view_contact_id_1_Itemid_584_lang_el"
+    ]
+  },
+  "/images/healing-sheng.jpg": {
+    "src": "/images/healing-sheng.jpg",
+    "alt": "healing sheng",
+    "title": "",
+    "dimensions": "450x245",
+    "used_in_pages": [
+      "el__therapeftiki-proseggisi__onehealing"
+    ]
+  },
+  "/images/seagulls.jpg": {
+    "src": "/images/seagulls.jpg",
+    "alt": "seagulls",
+    "title": "",
+    "dimensions": "1932x864",
+    "used_in_pages": [
+      "el__therapeftiki-proseggisi__psychiatriki"
+    ]
+  },
+  "/images/Li_Gan2.JPG": {
+    "src": "/images/Li_Gan2.JPG",
+    "alt": "Li Gan2",
+    "title": "",
+    "dimensions": "",
+    "used_in_pages": [
+      "el__therapeftiki-proseggisi__velonismos"
+    ]
+  },
+  "/images/trxt.png": {
+    "src": "/images/trxt.png",
+    "alt": "trxt",
+    "title": "",
+    "dimensions": "282x528",
+    "used_in_pages": [
+      "el__viografiko"
+    ]
+  },
+  "/media/k2/items/cache/9caa2793658f3cc387f216157300b1ce_Generic.jpg": {
+    "src": "/media/k2/items/cache/9caa2793658f3cc387f216157300b1ce_Generic.jpg",
+    "alt": "Βελονισμός ή Φάρμακα; …Μια ερώτηση παγίδα",
+    "title": "",
+    "dimensions": "",
+    "used_in_pages": [
+      "el_itemlist_tag_velonismos"
+    ]
+  },
+  "/images/P7125265.JPG": {
+    "src": "/images/P7125265.JPG",
+    "alt": "P7125265",
+    "title": "",
+    "dimensions": "640x480",
+    "used_in_pages": [
+      "home"
+    ]
+  },
+  "/images/P7270094_αντίγραφο.JPG": {
+    "src": "/images/P7270094_αντίγραφο.JPG",
+    "alt": "P7270094 αντίγραφο",
+    "title": "",
+    "dimensions": "825x619",
+    "used_in_pages": [
+      "home"
+    ]
+  }
+}

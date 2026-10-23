@@ -1,0 +1,76 @@
+---
+interface Props {
+  currentPath?: string;
+}
+
+const { currentPath = '' } = Astro.props;
+---
+
+<header class="w-full">
+  <!-- Top Toolbar -->
+  <div class="tm-toolbar bg-[#f7f6f3] border-b border-[#e9e5de] px-4 sm:px-8 py-2 text-xs text-gray-600 flex flex-wrap items-center justify-between">
+    <div class="flex items-center gap-3">
+      <!-- Email Icon Button -->
+      <a 
+        href="/el/epikoinonia" 
+        title="Επικοινωνία"
+        class="w-7 h-7 rounded-full bg-[#774737] hover:bg-[#5bbbc0] text-white flex items-center justify-center transition-colors shadow-sm"
+      >
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+        </svg>
+      </a>
+
+      <!-- Facebook Icon Button -->
+      <a 
+        href="https://www.facebook.com/profile.php?id=61552501891015" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        title="Facebook"
+        class="w-7 h-7 rounded-full bg-[#774737] hover:bg-[#5bbbc0] text-white flex items-center justify-center transition-colors shadow-sm"
+      >
+        <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
+          <path d="M22.675 0h-21.35C.597 0 0 .597 0 1.326v21.348C0 23.403.597 24 1.326 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.597 1.323-1.326V1.326C24 .597 23.405 0 22.675 0z"/>
+        </svg>
+      </a>
+    </div>
+
+    <!-- Search box -->
+    <div class="relative mt-2 sm:mt-0">
+      <form action="/el/istologio" method="GET" class="flex items-center">
+        <input 
+          type="text" 
+          name="q" 
+          placeholder="Αναζήτηση..." 
+          class="border border-[#ded8cf] bg-white text-xs px-2.5 py-1 rounded w-36 sm:w-48 focus:outline-none focus:border-[#774737] placeholder-gray-400"
+        />
+        <button type="submit" class="absolute right-2 text-gray-400 hover:text-[#774737]">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Headerbar (Logo + Slogan) -->
+  <div class="tm-headerbar px-4 sm:px-8 py-5 flex flex-col md:flex-row items-center justify-between border-b border-[#e9e5de] bg-[#fdfdfc]">
+    <a href="/el/" class="flex items-center gap-3">
+      <img 
+        src="/images/logo/One_Healing___Logo___mirror___transparent_background1.png" 
+        alt="One Healing Logo" 
+        width="220" 
+        height="120"
+        class="h-20 sm:h-24 w-auto object-contain"
+      />
+    </a>
+
+    <div class="mt-4 md:mt-0 text-center md:text-right">
+      <p class="text-lg sm:text-xl font-light tracking-wide text-[#774737] italic font-serif leading-snug">
+        One with the multiple cosmos
+        <br />
+        <span class="text-[#5bbbc0] font-normal">inside us.</span>
+      </p>
+    </div>
+  </div>
+</header>

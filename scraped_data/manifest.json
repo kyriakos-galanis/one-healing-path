@@ -1,0 +1,842 @@
+{
+  "http://www.onehealingpath.gr/el/": {
+    "status": 200,
+    "title": "Αρχικη - onehealing.gr",
+    "slug": "home",
+    "meta_description": "",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "One Healing"
+      },
+      {
+        "level": "h3",
+        "text": "Βελονισμός"
+      },
+      {
+        "level": "h3",
+        "text": "Ψυχοθεραπεία"
+      },
+      {
+        "level": "h3",
+        "text": "Ψυχιατρική"
+      },
+      {
+        "level": "h1",
+        "text": "Αλεξιθυμία: πως κλειδώνουν τα συναισθήματα μας, πως αυτό μας επηρεάζει και πως μπορούμε να το αντιμετωπίσουμε."
+      },
+      {
+        "level": "h1",
+        "text": "Ψυχικό τραύμα: Η σύγχρονη επαναστατική προσέγγιση στην ψυχική υγεία και τις ψυχικές διαταραχές."
+      },
+      {
+        "level": "h1",
+        "text": "Ται Τσι Tσουάν, μια πολεμική τέχνη στην υπηρεσία της Ιατρικής"
+      },
+      {
+        "level": "h1",
+        "text": "Στα χνάρια μιας τέχνης, η προσωπική μου εμπειρία από το Τάι τσι"
+      },
+      {
+        "level": "h1",
+        "text": "Interstitium, πόσο 'νέα' είναι η νέα ανακάλυψη της Ιατρικής;"
+      },
+      {
+        "level": "h1",
+        "text": "Βελονισμός ή Φάρμακα; …Μια ερώτηση παγίδα"
+      },
+      {
+        "level": "h3",
+        "text": "Ετικέτες"
+      },
+      {
+        "level": "h3",
+        "text": "Χρήσιμοι Σύνδεσμοι"
+      },
+      {
+        "level": "h3",
+        "text": "Θεραπευτική Προσέγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+      }
+    ],
+    "images_count": 9,
+    "markdown_file": "markdown/home.md",
+    "clean_html_file": "clean_html/home.html",
+    "raw_html_file": "raw_html/home.html"
+  },
+  "http://www.onehealingpath.gr/el/viografiko": {
+    "status": 200,
+    "title": "Βιογραφικo - onehealing.gr",
+    "slug": "el__viografiko",
+    "meta_description": "",
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Βιογραφικό"
+      },
+      {
+        "level": "h3",
+        "text": "Χρήσιμοι Σύνδεσμοι"
+      },
+      {
+        "level": "h3",
+        "text": "Θεραπευτική Προσέγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+      }
+    ],
+    "images_count": 3,
+    "markdown_file": "markdown/el__viografiko.md",
+    "clean_html_file": "clean_html/el__viografiko.html",
+    "raw_html_file": "raw_html/el__viografiko.html"
+  },
+  "http://www.onehealingpath.gr/el/therapeftiki-proseggisi": {
+    "status": 200,
+    "title": "Θεραπευτικη Προσεγγιση - onehealing.gr",
+    "slug": "el__therapeftiki-proseggisi",
+    "meta_description": "",
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Θεραπευτικη Προσεγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Χρήσιμοι Σύνδεσμοι"
+      },
+      {
+        "level": "h3",
+        "text": "Θεραπευτική Προσέγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+      }
+    ],
+    "images_count": 2,
+    "markdown_file": "markdown/el__therapeftiki-proseggisi.md",
+    "clean_html_file": "clean_html/el__therapeftiki-proseggisi.html",
+    "raw_html_file": "raw_html/el__therapeftiki-proseggisi.html"
+  },
+  "http://www.onehealingpath.gr/el/therapeftiki-proseggisi/velonismos": {
+    "status": 200,
+    "title": "Βελονισμός - onehealing.gr",
+    "slug": "el__therapeftiki-proseggisi__velonismos",
+    "meta_description": "",
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Βελονισμός"
+      },
+      {
+        "level": "h3",
+        "text": "Χρήσιμοι Σύνδεσμοι"
+      },
+      {
+        "level": "h3",
+        "text": "Θεραπευτική Προσέγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+      }
+    ],
+    "images_count": 3,
+    "markdown_file": "markdown/el__therapeftiki-proseggisi__velonismos.md",
+    "clean_html_file": "clean_html/el__therapeftiki-proseggisi__velonismos.html",
+    "raw_html_file": "raw_html/el__therapeftiki-proseggisi__velonismos.html"
+  },
+  "http://www.onehealingpath.gr/el/therapeftiki-proseggisi/onehealing": {
+    "status": 200,
+    "title": "One Healing - onehealing.gr",
+    "slug": "el__therapeftiki-proseggisi__onehealing",
+    "meta_description": "",
+    "headings": [
+      {
+        "level": "h2",
+        "text": "One Healing"
+      },
+      {
+        "level": "h3",
+        "text": "Χρήσιμοι Σύνδεσμοι"
+      },
+      {
+        "level": "h3",
+        "text": "Θεραπευτική Προσέγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+      }
+    ],
+    "images_count": 3,
+    "markdown_file": "markdown/el__therapeftiki-proseggisi__onehealing.md",
+    "clean_html_file": "clean_html/el__therapeftiki-proseggisi__onehealing.html",
+    "raw_html_file": "raw_html/el__therapeftiki-proseggisi__onehealing.html"
+  },
+  "http://www.onehealingpath.gr/el/therapeftiki-proseggisi/psychiatriki": {
+    "status": 200,
+    "title": "Ψυχιατρική - onehealing.gr",
+    "slug": "el__therapeftiki-proseggisi__psychiatriki",
+    "meta_description": "",
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Ψυχιατρική"
+      },
+      {
+        "level": "h3",
+        "text": "Χρήσιμοι Σύνδεσμοι"
+      },
+      {
+        "level": "h3",
+        "text": "Θεραπευτική Προσέγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+      }
+    ],
+    "images_count": 3,
+    "markdown_file": "markdown/el__therapeftiki-proseggisi__psychiatriki.md",
+    "clean_html_file": "clean_html/el__therapeftiki-proseggisi__psychiatriki.html",
+    "raw_html_file": "raw_html/el__therapeftiki-proseggisi__psychiatriki.html"
+  },
+  "http://www.onehealingpath.gr/el/prosopikes-martyries": {
+    "status": 200,
+    "title": "Προσωπικες Μαρτυριες - onehealing.gr",
+    "slug": "el__prosopikes-martyries",
+    "meta_description": "",
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Προσωπικές Μαρτυρίες"
+      },
+      {
+        "level": "h3",
+        "text": "Χρήσιμοι Σύνδεσμοι"
+      },
+      {
+        "level": "h3",
+        "text": "Θεραπευτική Προσέγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+      }
+    ],
+    "images_count": 2,
+    "markdown_file": "markdown/el__prosopikes-martyries.md",
+    "clean_html_file": "clean_html/el__prosopikes-martyries.html",
+    "raw_html_file": "raw_html/el__prosopikes-martyries.html"
+  },
+  "http://www.onehealingpath.gr/el/syxnes-erotiseis": {
+    "status": 200,
+    "title": "Συχνες Ερωτησεις - onehealing.gr",
+    "slug": "el__syxnes-erotiseis",
+    "meta_description": "",
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Συχνές Ερωτήσεις"
+      },
+      {
+        "level": "h3",
+        "text": "Ποιός μπορεί να ωφεληθεί από την ψυχοθεραπεία;"
+      },
+      {
+        "level": "h3",
+        "text": "Τι σημαίνει θεραπεία ενημερωμένη στο ψυχικό τραύμα (Trauma Informed Therapy), ποια χαρακτηριστικά έχει και γιατί είναι σημαντική στην ψυχοθεραπευτική διαδικασία;"
+      },
+      {
+        "level": "h3",
+        "text": "Μπορώ να ξεπεράσω την κατάθλιψη χωρίς την λήψη φαρμακευτικής αγωγής;"
+      },
+      {
+        "level": "h3",
+        "text": "Τι σημαίνει η παρατήρηση των συναισθημάτων στην ψυχοθεραπεία, πως συμβαίνει σε πρακτικό επίπεδο και γιατί είναι απαραίτητη;"
+      },
+      {
+        "level": "h3",
+        "text": "Μπορεί η ψυχοθεραπεία να με βοηθήσει σε μια προβληματική οικογενειακή ή συντροφική σχέση;"
+      },
+      {
+        "level": "h3",
+        "text": "Μπορεί να με βοηθήσει ο βελονισμός με το άγχος;"
+      },
+      {
+        "level": "h3",
+        "text": "Θα κόψω το κάπνισμα με το βελονισμό;"
+      },
+      {
+        "level": "h3",
+        "text": "Θα αδυνατίσω με το βελονισμό;"
+      },
+      {
+        "level": "h3",
+        "text": "Πόσες συνεδρίες βελονισμού θα χρειαστεί για να ξεπεράσω το πρόβλημα υγείας που έχω;"
+      },
+      {
+        "level": "h3",
+        "text": "Είναι απαραίτητο να διακόψω τη φαρμακευτική αγωγή που παίρνω για να κάνω βελονισμό;"
+      },
+      {
+        "level": "h3",
+        "text": "Μπορεί ο βελονισμός να βοηθήσει στον οξύ πόνο, π.χ. σε λουμπάγκο ή σε οξεία ημικρανία;"
+      },
+      {
+        "level": "h3",
+        "text": "Χρήσιμοι Σύνδεσμοι"
+      },
+      {
+        "level": "h3",
+        "text": "Θεραπευτική Προσέγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+      }
+    ],
+    "images_count": 1,
+    "markdown_file": "markdown/el__syxnes-erotiseis.md",
+    "clean_html_file": "clean_html/el__syxnes-erotiseis.html",
+    "raw_html_file": "raw_html/el__syxnes-erotiseis.html"
+  },
+  "http://www.onehealingpath.gr/el/istologio": {
+    "status": 200,
+    "title": "Ιστολογιο - onehealing.gr",
+    "slug": "el__istologio",
+    "meta_description": "",
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Ται Τσι Tσουάν, μια πολεμική τέχνη στην υπηρεσία της Ιατρικής"
+      },
+      {
+        "level": "h2",
+        "text": "Στα χνάρια μιας τέχνης, η προσωπική μου εμπειρία από το Τάι τσι"
+      },
+      {
+        "level": "h2",
+        "text": "Interstitium, πόσο 'νέα' είναι η νέα ανακάλυψη της Ιατρικής;"
+      },
+      {
+        "level": "h2",
+        "text": "Βελονισμός ή Φάρμακα; …Μια ερώτηση παγίδα"
+      },
+      {
+        "level": "h3",
+        "text": "Ετικέτες"
+      },
+      {
+        "level": "h3",
+        "text": "Χρήσιμοι Σύνδεσμοι"
+      },
+      {
+        "level": "h3",
+        "text": "Θεραπευτική Προσέγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+      }
+    ],
+    "images_count": 6,
+    "markdown_file": "markdown/el__istologio.md",
+    "clean_html_file": "clean_html/el__istologio.html",
+    "raw_html_file": "raw_html/el__istologio.html"
+  },
+  "http://www.onehealingpath.gr/el/epikoinonia": {
+    "status": 200,
+    "title": "Επικοινωνια - onehealing.gr",
+    "slug": "el__epikoinonia",
+    "meta_description": "",
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Παναγιώτης Γκίνης MD, CAc"
+      },
+      {
+        "level": "h3",
+        "text": "Χρήσιμοι Σύνδεσμοι"
+      },
+      {
+        "level": "h3",
+        "text": "Θεραπευτική Προσέγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+      }
+    ],
+    "images_count": 4,
+    "markdown_file": "markdown/el__epikoinonia.md",
+    "clean_html_file": "clean_html/el__epikoinonia.html",
+    "raw_html_file": "raw_html/el__epikoinonia.html"
+  },
+  "http://www.onehealingpath.gr/index.php?option=com_contact&view=contact&id=1&Itemid=584&lang=el": {
+    "status": 200,
+    "title": "Επικοινωνια - onehealing.gr",
+    "slug": "index.php__option_com_contact_view_contact_id_1_Itemid_584_lang_el",
+    "meta_description": "",
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Παναγιώτης Γκίνης MD, CAc"
+      },
+      {
+        "level": "h3",
+        "text": "Χρήσιμοι Σύνδεσμοι"
+      },
+      {
+        "level": "h3",
+        "text": "Θεραπευτική Προσέγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+      }
+    ],
+    "images_count": 3,
+    "markdown_file": "markdown/index.php__option_com_contact_view_contact_id_1_Itemid_584_lang_el.md",
+    "clean_html_file": "clean_html/index.php__option_com_contact_view_contact_id_1_Itemid_584_lang_el.html",
+    "raw_html_file": "raw_html/index.php__option_com_contact_view_contact_id_1_Itemid_584_lang_el.html"
+  },
+  "http://www.onehealingpath.gr/el/item/13-prosopika": {
+    "status": 200,
+    "title": "Στα χνάρια μιας τέχνης, η προσωπική μου εμπειρία από το Τάι τσι - onehealing.gr",
+    "slug": "el__item__13-prosopika",
+    "meta_description": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp...",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Καλώς ήρθατε"
+      },
+      {
+        "level": "h3",
+        "text": "Βελονισμός"
+      },
+      {
+        "level": "h3",
+        "text": "One Healing"
+      },
+      {
+        "level": "h3",
+        "text": "Ψυχιατρική"
+      },
+      {
+        "level": "h1",
+        "text": "Στα χνάρια μιας τέχνης, η προσωπική μου εμπειρία από το Τάι τσι"
+      },
+      {
+        "level": "h3",
+        "text": "Παναγιώτης Γκίνης MD, CAc"
+      },
+      {
+        "level": "h3",
+        "text": "Τελευταία άρθρα από τον/την Παναγιώτης Γκίνης MD, CAc"
+      },
+      {
+        "level": "h3",
+        "text": "Σχετικά Άρθρα"
+      },
+      {
+        "level": "h3",
+        "text": "Ετικέτες"
+      },
+      {
+        "level": "h3",
+        "text": "Χρήσιμοι Σύνδεσμοι"
+      },
+      {
+        "level": "h3",
+        "text": "Θεραπευτική Προσέγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+      }
+    ],
+    "images_count": 8,
+    "markdown_file": "markdown/el__item__13-prosopika.md",
+    "clean_html_file": "clean_html/el__item__13-prosopika.html",
+    "raw_html_file": "raw_html/el__item__13-prosopika.html"
+  },
+  "http://www.onehealingpath.gr/el/item/14-tai-chi": {
+    "status": 200,
+    "title": "Ται Τσι Tσουάν, μια πολεμική τέχνη στην υπηρεσία της Ιατρικής - onehealing.gr",
+    "slug": "el__item__14-tai-chi",
+    "meta_description": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Το Τάι τσι ή Τάι τσι τσουάν για την ακρίβεια, είναι μια τέχνη κίνησης που πρ...",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Καλώς ήρθατε"
+      },
+      {
+        "level": "h3",
+        "text": "Βελονισμός"
+      },
+      {
+        "level": "h3",
+        "text": "One Healing"
+      },
+      {
+        "level": "h3",
+        "text": "Ψυχιατρική"
+      },
+      {
+        "level": "h1",
+        "text": "Ται Τσι Tσουάν, μια πολεμική τέχνη στην υπηρεσία της Ιατρικής"
+      },
+      {
+        "level": "h3",
+        "text": "Παναγιώτης Γκίνης MD, CAc"
+      },
+      {
+        "level": "h3",
+        "text": "Τελευταία άρθρα από τον/την Παναγιώτης Γκίνης MD, CAc"
+      },
+      {
+        "level": "h3",
+        "text": "Σχετικά Άρθρα"
+      },
+      {
+        "level": "h3",
+        "text": "Ετικέτες"
+      },
+      {
+        "level": "h3",
+        "text": "Χρήσιμοι Σύνδεσμοι"
+      },
+      {
+        "level": "h3",
+        "text": "Θεραπευτική Προσέγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+      }
+    ],
+    "images_count": 8,
+    "markdown_file": "markdown/el__item__14-tai-chi.md",
+    "clean_html_file": "clean_html/el__item__14-tai-chi.html",
+    "raw_html_file": "raw_html/el__item__14-tai-chi.html"
+  },
+  "http://www.onehealingpath.gr/el/item/7-velonismos-i-farmaka-mia-erotisi-pagida": {
+    "status": 200,
+    "title": "Βελονισμός ή Φάρμακα; …Μια ερώτηση παγίδα - onehealing.gr",
+    "slug": "el__item__7-velonismos-i-farmaka-mia-erotisi-pagida",
+    "meta_description": "Ο βελονισμός είναι μια αρχαία θεραπευτική μέθοδος που εφαρμοζόταν κατά κύριο λόγο στην ευρύτερη περιοχή της ανατολικής Ασίας και αποτελεί ένα από τα τ...",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Καλώς ήρθατε"
+      },
+      {
+        "level": "h3",
+        "text": "Βελονισμός"
+      },
+      {
+        "level": "h3",
+        "text": "One Healing"
+      },
+      {
+        "level": "h3",
+        "text": "Ψυχιατρική"
+      },
+      {
+        "level": "h1",
+        "text": "Βελονισμός ή Φάρμακα; …Μια ερώτηση παγίδα"
+      },
+      {
+        "level": "h3",
+        "text": "Παναγιώτης Γκίνης MD, CAc"
+      },
+      {
+        "level": "h3",
+        "text": "Τελευταία άρθρα από τον/την Παναγιώτης Γκίνης MD, CAc"
+      },
+      {
+        "level": "h3",
+        "text": "Ετικέτες"
+      },
+      {
+        "level": "h3",
+        "text": "Χρήσιμοι Σύνδεσμοι"
+      },
+      {
+        "level": "h3",
+        "text": "Θεραπευτική Προσέγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+      }
+    ],
+    "images_count": 8,
+    "markdown_file": "markdown/el__item__7-velonismos-i-farmaka-mia-erotisi-pagida.md",
+    "clean_html_file": "clean_html/el__item__7-velonismos-i-farmaka-mia-erotisi-pagida.html",
+    "raw_html_file": "raw_html/el__item__7-velonismos-i-farmaka-mia-erotisi-pagida.html"
+  },
+  "http://www.onehealingpath.gr/el/item/9-interstitium": {
+    "status": 200,
+    "title": "Interstitium, πόσο 'νέα' είναι η νέα ανακάλυψη της Ιατρικής; - onehealing.gr",
+    "slug": "el__item__9-interstitium",
+    "meta_description": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Πριν από λίγους μήνες, δημοσιεύτηκαν στον εγχώριο και διεθνή τύπο μια σειρά από άρθρα που μιλούσαν για μια μεγάλη...",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Καλώς ήρθατε"
+      },
+      {
+        "level": "h3",
+        "text": "Βελονισμός"
+      },
+      {
+        "level": "h3",
+        "text": "One Healing"
+      },
+      {
+        "level": "h3",
+        "text": "Ψυχιατρική"
+      },
+      {
+        "level": "h1",
+        "text": "Interstitium, πόσο 'νέα' είναι η νέα ανακάλυψη της Ιατρικής;"
+      },
+      {
+        "level": "h3",
+        "text": "Ετικέτες"
+      },
+      {
+        "level": "h3",
+        "text": "Χρήσιμοι Σύνδεσμοι"
+      },
+      {
+        "level": "h3",
+        "text": "Θεραπευτική Προσέγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+      }
+    ],
+    "images_count": 7,
+    "markdown_file": "markdown/el__item__9-interstitium.md",
+    "clean_html_file": "clean_html/el__item__9-interstitium.html",
+    "raw_html_file": "raw_html/el__item__9-interstitium.html"
+  },
+  "http://www.onehealingpath.gr/el/itemlist/category/7-ska": {
+    "status": 200,
+    "title": "Σώμα, κίνηση και άσκηση - onehealingpath.gr",
+    "slug": "el__itemlist__category__7-ska",
+    "meta_description": "Άρθρα για τη σωστή στάση του σώματος, την κίνηση και την άθληση με γνώμονα την σωματική υγεία.",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Καλώς ήρθατε"
+      },
+      {
+        "level": "h3",
+        "text": "Βελονισμός"
+      },
+      {
+        "level": "h3",
+        "text": "One Healing - Ψυχοθεραπεία"
+      },
+      {
+        "level": "h3",
+        "text": "Ψυχιατρική"
+      },
+      {
+        "level": "h2",
+        "text": "Σώμα, κίνηση και άσκηση\t\t\t\t\t\t\t\t (2)"
+      },
+      {
+        "level": "h1",
+        "text": "Ται Τσι Tσουάν, μια πολεμική τέχνη στην υπηρεσία της Ιατρικής"
+      },
+      {
+        "level": "h1",
+        "text": "Στα χνάρια μιας τέχνης, η προσωπική μου εμπειρία από το Τάι τσι"
+      },
+      {
+        "level": "h3",
+        "text": "Ετικέτες"
+      },
+      {
+        "level": "h3",
+        "text": "Χρήσιμοι Σύνδεσμοι"
+      },
+      {
+        "level": "h3",
+        "text": "Θεραπευτική Προσέγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+      }
+    ],
+    "images_count": 8,
+    "markdown_file": "markdown/el__itemlist__category__7-ska.md",
+    "clean_html_file": "clean_html/el__itemlist__category__7-ska.html",
+    "raw_html_file": "raw_html/el__itemlist__category__7-ska.html"
+  },
+  "http://www.onehealingpath.gr/el/itemlist/category/8-pki": {
+    "status": 200,
+    "title": "Παραδοσιακή Κινέζικη Ιατρική - onehealing.gr",
+    "slug": "el__itemlist__category__8-pki",
+    "meta_description": "Άρθρα για την βασική θεωρία της κινέζικης ιατρικής, τον βελονισμό, τις μαλάξεις και τη διατροφή.",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Καλώς ήρθατε"
+      },
+      {
+        "level": "h3",
+        "text": "Βελονισμός"
+      },
+      {
+        "level": "h3",
+        "text": "One Healing"
+      },
+      {
+        "level": "h3",
+        "text": "Ψυχιατρική"
+      },
+      {
+        "level": "h2",
+        "text": "Παραδοσιακή Κινέζικη Ιατρική\t\t\t\t\t\t\t\t (1)"
+      },
+      {
+        "level": "h1",
+        "text": "Βελονισμός ή Φάρμακα; …Μια ερώτηση παγίδα"
+      },
+      {
+        "level": "h3",
+        "text": "Ετικέτες"
+      },
+      {
+        "level": "h3",
+        "text": "Χρήσιμοι Σύνδεσμοι"
+      },
+      {
+        "level": "h3",
+        "text": "Θεραπευτική Προσέγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+      }
+    ],
+    "images_count": 7,
+    "markdown_file": "markdown/el__itemlist__category__8-pki.md",
+    "clean_html_file": "clean_html/el__itemlist__category__8-pki.html",
+    "raw_html_file": "raw_html/el__itemlist__category__8-pki.html"
+  },
+  "http://www.onehealingpath.gr/el/itemlist/tag/Βελονισμός": {
+    "status": 200,
+    "title": "Βελονισμός - onehealing.gr",
+    "slug": "el__itemlist__tag__Βελονισμός",
+    "meta_description": "",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Καλώς ήρθατε"
+      },
+      {
+        "level": "h3",
+        "text": "Βελονισμός"
+      },
+      {
+        "level": "h3",
+        "text": "One Healing"
+      },
+      {
+        "level": "h3",
+        "text": "Ψυχιατρική"
+      },
+      {
+        "level": "h1",
+        "text": "Βελονισμός ή Φάρμακα; …Μια ερώτηση παγίδα"
+      },
+      {
+        "level": "h3",
+        "text": "Ετικέτες"
+      },
+      {
+        "level": "h3",
+        "text": "Χρήσιμοι Σύνδεσμοι"
+      },
+      {
+        "level": "h3",
+        "text": "Θεραπευτική Προσέγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+      }
+    ],
+    "images_count": 7,
+    "markdown_file": "markdown/el__itemlist__tag__Βελονισμός.md",
+    "clean_html_file": "clean_html/el__itemlist__tag__Βελονισμός.html",
+    "raw_html_file": "raw_html/el__itemlist__tag__Βελονισμός.html"
+  },
+  "http://www.onehealingpath.gr/el/itemlist/tag/Τάι τσι": {
+    "status": 200,
+    "title": "Τάι τσι - onehealing.gr",
+    "slug": "el__itemlist__tag__Τάι τσι",
+    "meta_description": "",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Καλώς ήρθατε"
+      },
+      {
+        "level": "h3",
+        "text": "Βελονισμός"
+      },
+      {
+        "level": "h3",
+        "text": "One Healing"
+      },
+      {
+        "level": "h3",
+        "text": "Ψυχιατρική"
+      },
+      {
+        "level": "h1",
+        "text": "Ται Τσι Tσουάν, μια πολεμική τέχνη στην υπηρεσία της Ιατρικής"
+      },
+      {
+        "level": "h1",
+        "text": "Στα χνάρια μιας τέχνης, η προσωπική μου εμπειρία από το Τάι τσι"
+      },
+      {
+        "level": "h3",
+        "text": "Ετικέτες"
+      },
+      {
+        "level": "h3",
+        "text": "Χρήσιμοι Σύνδεσμοι"
+      },
+      {
+        "level": "h3",
+        "text": "Θεραπευτική Προσέγγιση"
+      },
+      {
+        "level": "h3",
+        "text": "Γενικές Πληροφορίες/Ευχαριστίες"
+      }
+    ],
+    "images_count": 8,
+    "markdown_file": "markdown/el__itemlist__tag__Τάι τσι.md",
+    "clean_html_file": "clean_html/el__itemlist__tag__Τάι τσι.html",
+    "raw_html_file": "raw_html/el__itemlist__tag__Τάι τσι.html"
+  }
+}

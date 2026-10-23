@@ -1,0 +1,63 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import ArticleCard from '../../../../components/ArticleCard.astro';
+import siteData from '../../../../data/siteData.json';
+
+export function getStaticPaths() {
+  const paths: any[] = [];
+  const addedSlugs = new Set<string>();
+
+  for (const t of siteData.tags) {
+    const articles = siteData.articles.filter((a) => a.tags && a.tags.includes(t.raw));
+    
+    const slugsToRegister = [
+      t.slug,
+      t.raw,
+      encodeURIComponent(t.raw),
+      t.raw.replace(/ /g, '%20'),
+    ];
+
+    for (const s of slugsToRegister) {
+      if (s && !addedSlugs.has(s)) {
+        addedSlugs.add(s);
+        paths.push({
+          params: { slug: s },
+          props: { tag: t, articles },
+        });
+      }
+    }
+  }
+
+  return paths;
+}
+
+const { tag, articles } = Astro.props;
+---
+
+<Layout 
+  title={`Ετικέτα: ${tag.title} - onehealing.gr`}
+  description={`Άρθρα με την ετικέτα ${tag.title} - One Healing.`}
+  breadcrumbs={[
+    { label: 'Αρχική', href: '/el/' },
+    { label: 'Ιστολόγιο', href: '/el/istologio' },
+    { label: `Ετικέτα: ${tag.title}` }
+  ]}
+>
+  <div class="space-y-6">
+    <header class="border-b border-[#ded8cf] pb-3 mb-6">
+      <span class="text-xs uppercase tracking-wider text-gray-500">Ετικέτα</span>
+      <h1 class="text-2xl sm:text-3xl font-serif text-[#774737] mt-1">
+        {tag.title}
+      </h1>
+      <p class="text-xs text-gray-500 mt-1">
+        Βρέθηκαν {articles.length} άρθρα
+      </p>
+    </header>
+
+    <div class="divide-y divide-[#e9e3d8]">
+      {articles.map((article) => (
+        <ArticleCard article={article} />
+      ))}
+    </div>
+  </div>
+</Layout>

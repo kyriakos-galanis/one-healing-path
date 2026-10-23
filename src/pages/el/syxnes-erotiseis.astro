@@ -1,0 +1,79 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import siteData from '../../data/siteData.json';
+
+const faqs = siteData.faqs;
+---
+
+<Layout 
+  title="Συχνες Ερωτησεις - onehealing.gr"
+  description="Συχνές ερωτήσεις και απαντήσεις για το βελονισμό, την ψυχοθεραπεία και την ψυχιατρική στο One Healing."
+  breadcrumbs={[
+    { label: 'Αρχική', href: '/el/' },
+    { label: 'Συχνές Ερωτήσεις' }
+  ]}
+>
+  <article class="bg-white">
+    <header class="border-b border-[#ded8cf] pb-3 mb-6">
+      <h1 class="text-2xl sm:text-3xl font-serif text-[#774737]">
+        Συχνές Ερωτήσεις
+      </h1>
+      <p class="text-xs sm:text-sm text-gray-600 mt-2">
+        Παρακάτω θα βρείτε απαντήσεις στα πιο συνηθισμένα ερωτήματα σχετικά με το βελονισμό, την ψυχοθεραπεία και τη συνολική θεραπευτική προσέγγιση.
+      </p>
+    </header>
+
+    <!-- Accordion FAQ List -->
+    <div class="space-y-3 pt-2">
+      {faqs.map((faq, idx) => (
+        <div class="faq-item border border-[#ded8cf] rounded bg-[#fdfdfc] overflow-hidden transition-all">
+          <button 
+            type="button" 
+            class="faq-toggle w-full px-4 py-3.5 text-left flex items-center justify-between gap-3 hover:bg-[#faf6f0] transition-colors focus:outline-none"
+            data-index={idx}
+          >
+            <span class="font-medium text-sm sm:text-base text-[#32393c] flex items-center gap-2.5">
+              <span class="w-5 h-5 rounded-full bg-[#f0eae1] text-[#774737] text-xs flex items-center justify-center font-bold shrink-0">
+                {idx + 1}
+              </span>
+              {faq.question}
+            </span>
+            <span class="faq-icon text-[#774737] shrink-0 font-bold text-lg leading-none transition-transform duration-200">
+              +
+            </span>
+          </button>
+          
+          <div class="faq-answer hidden px-5 py-4 border-t border-[#f0eae1] bg-white text-xs sm:text-sm text-gray-700 leading-relaxed">
+            <div class="prose max-w-none space-y-2" set:html={faq.answer} />
+          </div>
+        </div>
+      ))}
+    </div>
+  </article>
+</Layout>
+
+<script>
+  const toggles = document.querySelectorAll('.faq-toggle');
+
+  toggles.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const parent = btn.closest('.faq-item');
+      if (!parent) return;
+
+      const answer = parent.querySelector('.faq-answer');
+      const icon = parent.querySelector('.faq-icon');
+      
+      const isOpen = !answer?.classList.contains('hidden');
+
+      if (isOpen) {
+        answer?.classList.add('hidden');
+        if (icon) icon.textContent = '+';
+        parent.classList.remove('bg-[#faf6f0]');
+      } else {
+        answer?.classList.remove('hidden');
+        if (icon) icon.textContent = '−';
+        parent.classList.add('bg-[#faf6f0]');
+      }
+    });
+  });
+</script>
