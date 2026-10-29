@@ -1,0 +1,330 @@
+{
+  "/el/": {
+    "title": "Αρχικη - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": true
+  },
+  "/el/viografiko": {
+    "title": "Βιογραφικo - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": "/el/"
+      },
+      {
+        "text": "Βιογραφικo",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": false
+  },
+  "/el/therapeftiki-proseggisi": {
+    "title": "Θεραπευτικη Προσεγγιση - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": "/el/"
+      },
+      {
+        "text": "Θεραπευτικη Προσεγγιση",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": false
+  },
+  "/el/therapeftiki-proseggisi/velonismos": {
+    "title": "Βελονισμός - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": "/el/"
+      },
+      {
+        "text": "Θεραπευτικη Προσεγγιση",
+        "href": "/el/therapeftiki-proseggisi"
+      },
+      {
+        "text": "Βελονισμός",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": false
+  },
+  "/el/therapeftiki-proseggisi/onehealing": {
+    "title": "Ψυχοθεραπεία  - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": "/el/"
+      },
+      {
+        "text": "Θεραπευτικη Προσεγγιση",
+        "href": "/el/therapeftiki-proseggisi"
+      },
+      {
+        "text": "Ψυχοθεραπεία",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": false
+  },
+  "/el/therapeftiki-proseggisi/psychiatriki": {
+    "title": "Ψυχιατρική - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": "/el/"
+      },
+      {
+        "text": "Θεραπευτικη Προσεγγιση",
+        "href": "/el/therapeftiki-proseggisi"
+      },
+      {
+        "text": "Ψυχιατρική",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": false
+  },
+  "/el/prosopikes-martyries": {
+    "title": "Προσωπικες Μαρτυριες - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": "/el/"
+      },
+      {
+        "text": "Προσωπικες Μαρτυριες",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": false
+  },
+  "/el/syxnes-erotiseis": {
+    "title": "Συχνες Ερωτησεις - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": "/el/"
+      },
+      {
+        "text": "Συχνες Ερωτησεις",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": false
+  },
+  "/el/istologio": {
+    "title": "Ιστολογιο - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": "/el/"
+      },
+      {
+        "text": "Ιστολογιο",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": true
+  },
+  "/el/epikoinonia": {
+    "title": "Επικοινωνια - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": "/el/"
+      },
+      {
+        "text": "Επικοινωνια",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": false
+  },
+  "/el/item/13-prosopika": {
+    "title": "Στα χνάρια μιας τέχνης, η προσωπική μου εμπειρία από το Τάι τσι - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": "/el/"
+      },
+      {
+        "text": "Σώμα, κίνηση και άσκηση",
+        "href": "/el/itemlist/category/7-ska"
+      },
+      {
+        "text": "Στα χνάρια μιας τέχνης, η προσωπική μου εμπειρία από το Τάι τσι",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": true
+  },
+  "/el/item/14-tai-chi": {
+    "title": "Ται Τσι Tσουάν, μια πολεμική τέχνη στην υπηρεσία της Ιατρικής - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": "/el/"
+      },
+      {
+        "text": "Σώμα, κίνηση και άσκηση",
+        "href": "/el/itemlist/category/7-ska"
+      },
+      {
+        "text": "Ται Τσι Tσουάν, μια πολεμική τέχνη στην υπηρεσία της Ιατρικής",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": true
+  },
+  "/el/item/7-velonismos-i-farmaka-mia-erotisi-pagida": {
+    "title": "Βελονισμός ή Φάρμακα; …Μια ερώτηση παγίδα - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": "/el/"
+      },
+      {
+        "text": "Παραδοσιακή Κινέζικη Ιατρική",
+        "href": "/el/itemlist/category/8-pki"
+      },
+      {
+        "text": "Βελονισμός ή Φάρμακα; …Μια ερώτηση παγίδα",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": true
+  },
+  "/el/item/9-interstitium": {
+    "title": "Interstitium, πόσο 'νέα' είναι η νέα ανακάλυψη της Ιατρικής; - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": "/el/"
+      },
+      {
+        "text": "Interstitium, πόσο 'νέα' είναι η νέα ανακάλυψη της Ιατρικής;",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": true
+  },
+  "/el/item/16-alexithymia": {
+    "title": "Αλεξιθυμία: πως κλειδώνουν τα συναισθήματα μας, πως αυτό μας επηρεάζει και πως μπορούμε να το αντιμετωπίσουμε. - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": "/el/"
+      },
+      {
+        "text": "Ψυχική Υγεία-Ψυχιατρική",
+        "href": "/el/itemlist/category/10-psyxiki-ygeia"
+      },
+      {
+        "text": "Αλεξιθυμία: πως κλειδώνουν τα συναισθήματα μας, πως αυτό μας επηρεάζει και πως μπορούμε να το αντιμετωπίσουμε.",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": true
+  },
+  "/el/item/15-psyxiko-trayma": {
+    "title": "Ψυχικό τραύμα: Η σύγχρονη επαναστατική προσέγγιση στην ψυχική υγεία και τις ψυχικές διαταραχές. - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": "/el/"
+      },
+      {
+        "text": "Ψυχική Υγεία-Ψυχιατρική",
+        "href": "/el/itemlist/category/10-psyxiki-ygeia"
+      },
+      {
+        "text": "Ψυχικό τραύμα: Η σύγχρονη επαναστατική προσέγγιση στην ψυχική υγεία και τις ψυχικές διαταραχές.",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": true
+  },
+  "/el/itemlist/category/7-ska": {
+    "title": "Σώμα, κίνηση και άσκηση - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": "/el/"
+      },
+      {
+        "text": "Σώμα, κίνηση και άσκηση",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": true
+  },
+  "/el/itemlist/category/8-pki": {
+    "title": "Παραδοσιακή Κινέζικη Ιατρική - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": "/el/"
+      },
+      {
+        "text": "Παραδοσιακή Κινέζικη Ιατρική",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": true
+  },
+  "/el/itemlist/category/10-psyxiki-ygeia": {
+    "title": "Ψυχική Υγεία-Ψυχιατρική - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": "/el/"
+      },
+      {
+        "text": "Ψυχική Υγεία-Ψυχιατρική",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": true
+  },
+  "/el/itemlist/user/655-panagiwthsgkinhsmdcac": {
+    "title": "Παναγιώτης Γκίνης MD, CAc - onehealing.gr",
+    "breadcrumbs": [
+      {
+        "text": "Αρχική",
+        "href": "/el/"
+      },
+      {
+        "text": "Παναγιώτης Γκίνης MD, CAc",
+        "href": null
+      }
+    ],
+    "has_main": true,
+    "has_sidebar": true
+  }
+}

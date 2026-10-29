@@ -45,8 +45,8 @@ for (const filePath of htmlFiles) {
   const original = content;
 
   // Replace href="/el...", src="/images...", action="/el...", etc.
-  // Targets: /el, /images, /components, /media, /favicon.ico
-  content = content.replace(/(href|src|action)=["']\/(el|images|components|media|favicon\.ico)([^"']*)["']/g, (match, attr, prefix, rest) => {
+  // Targets: /el, /images, /components, /media, /templates, /cache, /modules, /favicon.ico
+  content = content.replace(/(href|src|action)=["']\/(el|images|components|media|templates|cache|modules|favicon\.ico)([^"']*)["']/g, (match, attr, prefix, rest) => {
     return `${attr}="${base}/${prefix}${rest}"`;
   });
 

@@ -17,71 +17,60 @@ interface Props {
 const { article } = Astro.props;
 ---
 
-<article class="bg-white border-b border-[#e9e3d8] pb-8 mb-8 last:border-b-0 last:mb-0">
-  <!-- Article Header with Date and Metadata -->
-  <header class="mb-4">
-    <div class="flex items-start gap-3 sm:gap-4">
-      <!-- Big Date Badge -->
-      <div class="shrink-0 text-center bg-[#f4f1ea] border border-[#ded8cf] rounded px-2.5 py-1.5 min-w-[50px]">
-        <span class="block text-xl sm:text-2xl font-bold text-[#774737] leading-none">
-          {article.date_day}
-        </span>
-        <span class="block text-[10px] uppercase text-gray-500 mt-0.5">
-          {article.date.split(' ')[1]?.slice(0, 3)}
-        </span>
-      </div>
-
-      <!-- Title & Metadata -->
-      <div class="flex-1">
-        <h2 class="text-xl sm:text-2xl font-medium text-[#32393c] leading-snug hover:text-[#774737] transition-colors">
-          <a href={`/el/item/${article.slug}`}>
-            {article.title}
-          </a>
-        </h2>
-
-        <!-- Meta Line -->
-        <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-gray-500 mt-2">
-          <span>{article.date}</span>
-          <span class="text-gray-300">|</span>
-          <span>
-            Κατηγορία: 
-            <a href={`/el/itemlist/category/${article.category_slug}`} class="text-[#774737] hover:underline font-medium">
-              {article.category}
-            </a>
-          </span>
-          <span class="text-gray-300">|</span>
-          <span>
-            Γράφτηκε από 
-            <span class="text-gray-700 font-medium">{article.author}</span>
-          </span>
-        </div>
-      </div>
-    </div>
+<article class="itemView groupLeading" itemscope="" itemtype="https://schema.org/Article">
+  <header>
+    <time datetime={article.date} itemprop="dateCreated">
+      <span class="uk-blog-date">
+        <span class="tm-article-date-day">{article.date_day}</span>
+      </span>
+    </time>
+    <h1 itemprop="name">
+      <a href={`/el/item/${article.slug}`}>
+        {article.title}
+      </a>
+    </h1>
+    <ul>
+      <li class="itemDateCreated">
+        {article.date} |
+      </li>
+      <li class="itemCategory">
+        <span>Κατηγορία</span>
+        <a href={`/el/itemlist/category/${article.category_slug}`}>
+          {article.category}
+        </a>
+      </li>
+      <li class="itemAuthor" itemscope="" itemtype="https://schema.org/Person">
+        Γράφτηκε από
+        <a href="/el/itemlist/user/655-panagiwthsgkinhsmdcac" rel="author">
+          <span itemprop="name">{article.author}</span>
+        </a>
+      </li>
+      <li class="itemComments">
+        <a href={`/el/item/${article.slug}#itemCommentsAnchor`}>
+          <i class="uk-icon-comment-alt"></i> Σχολιάστε πρώτοι!
+        </a>
+      </li>
+    </ul>
   </header>
 
-  <!-- Article Body (Image & Intro) -->
-  <div class="mt-4 text-sm text-gray-700 leading-relaxed">
-    {article.image && (
-      <a href={`/el/item/${article.slug}`} class="block mb-4 overflow-hidden rounded group">
-        <img 
-          src={article.image} 
-          alt={article.title} 
-          class="w-full max-h-[360px] object-cover group-hover:scale-[1.01] transition-transform duration-300"
-        />
-      </a>
-    )}
-    <p class="text-gray-600 line-clamp-3 sm:line-clamp-4 leading-relaxed">
-      {article.intro}
-    </p>
+  <div class="itemBlock">
+    <div class="itemBody" itemprop="articleBody">
+      <div class="itemIntroText">
+        {article.image && (
+          <p>
+            <a href={`/el/item/${article.slug}`}>
+              <img src={article.image} alt={article.title} />
+            </a>
+          </p>
+        )}
+        <p>{article.intro}</p>
+      </div>
 
-    <!-- Read More Button -->
-    <div class="mt-4">
-      <a 
-        href={`/el/item/${article.slug}`} 
-        class="inline-block border border-[#774737] text-[#774737] hover:bg-[#774737] hover:text-white px-4 py-2 rounded text-xs font-semibold uppercase tracking-wider transition-colors"
-      >
-        Διαβάστε περισσότερα...
-      </a>
+      <div class="itemReadMore">
+        <a class="k2ReadMore" href={`/el/item/${article.slug}`}>
+          Περισσότερα...
+        </a>
+      </div>
     </div>
   </div>
 </article>

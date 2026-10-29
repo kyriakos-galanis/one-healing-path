@@ -26,21 +26,25 @@ const { category, articles } = Astro.props;
     { label: `Κατηγορία: ${category.title}` }
   ]}
 >
-  <div class="space-y-6">
-    <header class="border-b border-[#ded8cf] pb-3 mb-6">
-      <span class="text-xs uppercase tracking-wider text-gray-500">Κατηγορία</span>
-      <h1 class="text-2xl sm:text-3xl font-serif text-[#774737] mt-1">
-        {category.title}
-      </h1>
-      <p class="text-xs text-gray-500 mt-1">
-        Βρέθηκαν {articles.length} άρθρα
-      </p>
-    </header>
+  <div id="k2Container" class="itemListView" style="width: 100%;">
+    <div class="itemListCategoriesBlock">
+      <div class="itemsCategory">
+        <h2>Κατηγορία: {category.title}</h2>
+      </div>
+    </div>
 
-    <div class="divide-y divide-[#e9e3d8]">
-      {articles.map((article) => (
-        <ArticleCard article={article} />
-      ))}
+    <div class="itemList">
+      <div id="itemListLeading">
+        {articles.map((article, idx) => (
+          <div 
+            class={`itemContainer ${idx % 2 === 1 ? 'itemContainerLast' : ''}`} 
+            style="width: 49.9%; float: left; box-sizing: border-box; margin-bottom: 30px;"
+          >
+            <ArticleCard article={article} />
+          </div>
+        ))}
+        <div class="clr" style="clear: both;"></div>
+      </div>
     </div>
   </div>
 </Layout>

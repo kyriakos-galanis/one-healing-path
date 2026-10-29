@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Ftra';
+    src: url('../fonts/FtraMd.eot');
+    src: url('../fonts/FtraMd.eot?#iefix') format('embedded-opentype'),
+    	 url('../fonts/font-name.woff2') format('woff2'), 
+    	 url('../FtraMd.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+blockquote .author,
+blockquote .jobtitle,
+.uk-nav-search > li > a,
+.uk-nav-search > li > a > div,
+#cntdwn b,
+.tm-form-select select option,
+.uk-block-digit,
+.tm-article-date-true .tm-article-date .tm-article-date-day,
+.price-tag,
+.ev_fieldset,
+.ev_td_left,
+a.ev_link_row:link,
+a.ev_link_weekday:link,
+a.ev_link_weekday:hover,
+.mod_events_table,
+.mod_events_monthyear a.mod_events_link,
+#jevents .jevbootstrap input,
+#jevents .jevbootstrap button,
+#jevents .jevbootstrap select,
+#jevents .jevbootstrap textarea,
+a.cal_titlelink:link,
+a.cal_titlelink:visited,
+a.cal_titlelink:hover,
+.cal_td_weeklink a,
+a.cal_daylink,
+a.cal_daylink:link,
+.mod_events_latest_date:nth-child(1),
+#cal_title,
+.uk-blog-date .tm-article-date-day,
+#tm-container .onwebchatbox *,
+#tm-container .onwebchatbox #div_chat_min_title_span,
+#tm-container .onwebchatbox #div_chat_max_title_span,
+#tm-container .onwebchatbox #offline_form > .onwebchatform_div > #onwebchatoffname,
+#tm-container .onwebchatbox #offline_form > .onwebchatform_div > #onwebchatoffemail,
+#tm-container .onwebchatbox #offline_form > .onwebchatform_div > #onwebchatemailtext,
+#tm-container .onwebchatbox #offline_form > .onwebchatform_div > #onprechatname,
+#tm-container .onwebchatbox #offline_form > .onwebchatform_div > #onprechatemail,
+#tm-container .onwebchatbox #offline_form > .onwebchatform_div > #onprechattext,
+.plyr {
+  font-family: 'Ftra';
+}
+
+/* Sub-object: `uk-navbar-nav`
+ ========================================================================== */
+.uk-navbar-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+}
+/*
+ * 1. Create position context for dropdowns
+ */
+.uk-navbar-nav > li {
+  float: left;
+  /* 1 */
+  position: relative;
+}
+/*
+ * 1. Dimensions
+ * 2. Style
+ */
+.uk-navbar-nav > li > a {
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  /* 1 */
+  height: 60px;
+  padding: 0 13px;
+  line-height: 57px;
+  /* 2 */
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Ftra';
+  font-weight: 300;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 0 0 rgba(255, 255, 255, 0.1);
+  text-transform: uppercase;
+}
+
+/* Fix the 2 columns mixe up k2 */
+
+.itemContainer + .itemContainer article {
+    margin: 0 0 0 30px;
+}
+.itemContainer:not(.itemContainerLast) .itemImageBlock.tm-article-featured-image {
+    margin: 0;
+}
+.itemContainer + .itemContainer article .itemImageBlock.tm-article-featured-image {
+    margin: 0;
+}
+
+#k2Container {
+    display: inline-block;
+}
+
+
+
+/*  Comments  */
+
+.itemCommentsForm textarea.inputbox {
+    height: 50px;
+}
+
+/*  Tags  */
+
+.itemLinks {
+    clear: both;
+    margin: 20px 0 38px 0;

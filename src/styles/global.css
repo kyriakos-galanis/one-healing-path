@@ -1,78 +1,12 @@
-@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  html {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #444444;
-    background-color: #ede9e3;
-  }
-  
-  body {
-    background-color: #ede9e3;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    color: #32393c;
-    font-weight: 500;
-  }
-
-  a {
-    color: #774737;
-    text-decoration: none;
-    transition: color 0.15s ease-in-out;
-  }
-
-  a:hover {
-    color: #5bbbc0;
-  }
-}
-
-/* Custom UIkit / Saffron Theme Styling */
+/* Global Helper Styles */
 .tm-sheet {
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-  border-left: 1px solid #ded9d0;
-  border-right: 1px solid #ded9d0;
   background-color: #ffffff;
-}
-
-.uk-badge {
-  display: inline-block;
-  padding: 2px 8px;
-  background: #774737;
-  font-size: 11px;
-  font-weight: bold;
-  color: #ffffff;
-  line-height: 14px;
-  text-align: center;
-  vertical-align: middle;
-  text-transform: none;
-  border-radius: 2px;
-}
-
-.article-content p {
-  margin-bottom: 1rem;
-  line-height: 1.7;
-}
-
-.article-content ul {
-  list-style-type: disc;
-  margin-left: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.article-content ol {
-  list-style-type: decimal;
-  margin-left: 1.5rem;
-  margin-bottom: 1rem;
 }
 
 .article-content img {
   max-width: 100%;
   height: auto;
-  border-radius: 2px;
 }

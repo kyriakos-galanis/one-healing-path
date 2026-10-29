@@ -16,18 +16,19 @@ const articles = siteData.articles;
     <HeroSlideshow />
   </div>
 
-  <div class="space-y-6">
-    <div class="border-b border-[#ded8cf] pb-2 mb-6">
-      <h1 class="text-xl sm:text-2xl font-serif text-[#774737]">
-        Τελευταίες Δημοσιεύσεις
-      </h1>
-    </div>
-
-    <!-- Article Listing -->
-    <div class="divide-y divide-[#e9e3d8]">
-      {articles.map((article) => (
-        <ArticleCard article={article} />
-      ))}
+  <div id="k2Container" class="itemListView" style="width: 100%;">
+    <div class="itemList">
+      <div id="itemListLeading">
+        {articles.map((article, idx) => (
+          <div 
+            class={`itemContainer ${idx % 2 === 1 ? 'itemContainerLast' : ''}`} 
+            style="width: 49.9%; float: left; box-sizing: border-box; margin-bottom: 30px;"
+          >
+            <ArticleCard article={article} />
+          </div>
+        ))}
+        <div class="clr" style="clear: both;"></div>
+      </div>
     </div>
   </div>
 </Layout>

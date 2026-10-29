@@ -5,152 +5,76 @@ interface Props {
 
 const { currentPath = '' } = Astro.props;
 
-const navItems = [
-  { label: 'Αρχική', href: '/el/' },
-  { label: 'Βιογραφικό', href: '/el/viografiko' },
-  { 
-    label: 'Θεραπευτική Προσέγγιση', 
-    href: '/el/therapeftiki-proseggisi',
-    children: [
-      { label: 'Βελονισμός', href: '/el/therapeftiki-proseggisi/velonismos' },
-      { label: 'Ψυχοθεραπεία', href: '/el/therapeftiki-proseggisi/onehealing' },
-      { label: 'Ψυχιατρική', href: '/el/therapeftiki-proseggisi/psychiatriki' },
-    ]
-  },
-  { label: 'Συχνές Ερωτήσεις', href: '/el/syxnes-erotiseis' },
-  { label: 'Ιστολόγιο', href: '/el/istologio' },
-  { label: 'Προσωπικές Μαρτυρίες', href: '/el/prosopikes-martyries' },
-  { label: 'Επικοινωνία', href: '/el/epikoinonia' },
-];
-
-const isActive = (href: string) => {
-  if (href === '/el/') {
+const isActive = (path: string) => {
+  if (path === '/el/') {
     return currentPath === '/el/' || currentPath === '/' || currentPath === '/el';
   }
-  return currentPath.startsWith(href);
+  return currentPath.startsWith(path);
 };
 ---
 
-<nav class="bg-[#774737] text-white sticky top-0 z-50 shadow-sm border-b border-[#5e382b]">
-  <div class="px-4 sm:px-8 flex items-center justify-between">
-    <!-- Desktop Menu -->
-    <ul class="hidden lg:flex items-center space-x-1 text-sm font-medium">
-      {navItems.map((item) => {
-        const active = isActive(item.href);
-        if (item.children) {
-          return (
-            <li class="relative group">
-              <a 
-                href={item.href}
-                class={`inline-flex items-center gap-1 px-3.5 py-3.5 transition-colors border-b-2 ${
-                  active 
-                    ? 'bg-[#5e382b] border-[#a3e9ec] text-white font-semibold' 
-                    : 'border-transparent text-gray-100 hover:bg-[#683e30] hover:text-white'
-                }`}
-              >
-                {item.label}
-                <svg class="w-3.5 h-3.5 transition-transform group-hover:rotate-180 opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                </svg>
-              </a>
-              <!-- Dropdown -->
-              <div class="absolute left-0 top-full hidden group-hover:block w-52 bg-[#5e382b] shadow-xl py-2 border-t-2 border-[#a3e9ec] z-50">
-                {item.children.map((child) => (
-                  <a 
-                    href={child.href}
-                    class={`block px-4 py-2 text-xs transition-colors ${
-                      currentPath.startsWith(child.href) 
-                        ? 'bg-[#774737] text-[#a3e9ec] font-semibold' 
-                        : 'text-gray-200 hover:bg-[#774737] hover:text-white'
-                    }`}
-                  >
-                    {child.label}
-                  </a>
-                ))}
-              </div>
-            </li>
-          );
-        }
-        return (
-          <li>
-            <a 
-              href={item.href}
-              class={`block px-3.5 py-3.5 transition-colors border-b-2 ${
-                active 
-                  ? 'bg-[#5e382b] border-[#a3e9ec] text-white font-semibold' 
-                  : 'border-transparent text-gray-100 hover:bg-[#683e30] hover:text-white'
-              }`}
-            >
-              {item.label}
-            </a>
-          </li>
-        );
-      })}
-    </ul>
-
-    <!-- Mobile Header -->
-    <div class="lg:hidden flex items-center justify-between w-full py-2.5">
-      <span class="text-xs uppercase tracking-wider text-[#a3e9ec] font-semibold">One Healing</span>
-      <button 
-        id="mobile-menu-btn" 
-        class="text-white p-1.5 rounded hover:bg-[#5e382b] focus:outline-none"
-        aria-label="Μενού"
+<div class="tm-mainheader">
+  <nav class="tm-navbar uk-navbar" data-uk-sticky="">
+    <ul class="uk-navbar-nav uk-hidden-small">
+      <li class={isActive('/el/') ? 'uk-active' : ''}>
+        <a href="/el/">Αρχικη</a>
+      </li>
+      <li class={isActive('/el/viografiko') ? 'uk-active' : ''}>
+        <a href="/el/viografiko">Βιογραφικo</a>
+      </li>
+      <li 
+        class={`uk-parent ${isActive('/el/therapeftiki-proseggisi') ? 'uk-active' : ''}`} 
+        data-uk-dropdown="{'preventflip':'y'}" 
+        aria-haspopup="true" 
+        aria-expanded="false"
       >
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-        </svg>
-      </button>
-    </div>
-  </div>
-
-  <!-- Mobile Drawer -->
-  <div id="mobile-menu" class="hidden lg:hidden bg-[#5e382b] px-4 py-3 border-t border-[#774737]">
-    <ul class="space-y-1 text-sm">
-      {navItems.map((item) => {
-        const active = isActive(item.href);
-        return (
-          <li>
-            <a 
-              href={item.href}
-              class={`block px-3 py-2 rounded transition-colors ${
-                active 
-                  ? 'bg-[#774737] text-[#a3e9ec] font-semibold' 
-                  : 'text-gray-200 hover:bg-[#774737] hover:text-white'
-              }`}
-            >
-              {item.label}
-            </a>
-            {item.children && (
-              <ul class="pl-4 mt-1 space-y-1 border-l-2 border-[#774737] ml-2">
-                {item.children.map((child) => (
-                  <li>
-                    <a 
-                      href={child.href}
-                      class={`block px-3 py-1.5 text-xs rounded transition-colors ${
-                        currentPath.startsWith(child.href)
-                          ? 'text-[#a3e9ec] font-semibold'
-                          : 'text-gray-300 hover:text-white'
-                      }`}
-                    >
-                      {child.label}
-                    </a>
-                  </li>
-                ))}
+        <a href="/el/therapeftiki-proseggisi">Θεραπευτικη Προσεγγιση</a>
+        <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1">
+          <div class="uk-grid uk-dropdown-grid">
+            <div class="uk-width-1-1">
+              <ul class="uk-nav uk-nav-navbar">
+                <li>
+                  <a href="/el/therapeftiki-proseggisi/velonismos">Βελονισμός</a>
+                </li>
+                <li>
+                  <a href="/el/therapeftiki-proseggisi/onehealing">Ψυχοθεραπεία</a>
+                </li>
+                <li>
+                  <a href="/el/therapeftiki-proseggisi/psychiatriki">Ψυχιατρική</a>
+                </li>
               </ul>
-            )}
-          </li>
-        );
-      })}
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class={isActive('/el/syxnes-erotiseis') ? 'uk-active' : ''}>
+        <a href="/el/syxnes-erotiseis">Συχνες Ερωτησεις</a>
+      </li>
+      <li class={isActive('/el/istologio') ? 'uk-active' : ''}>
+        <a href="/el/istologio">Ιστολογιο</a>
+      </li>
+      <li class={isActive('/el/prosopikes-martyries') ? 'uk-active' : ''}>
+        <a href="/el/prosopikes-martyries">Προσωπικες Μαρτυριες</a>
+      </li>
+      <li class={isActive('/el/epikoinonia') ? 'uk-active' : ''}>
+        <a href="/el/epikoinonia">Επικοινωνια</a>
+      </li>
     </ul>
-  </div>
-</nav>
 
-<script>
-  const btn = document.getElementById('mobile-menu-btn');
-  const menu = document.getElementById('mobile-menu');
-  if (btn && menu) {
-    btn.addEventListener('click', () => {
-      menu.classList.toggle('hidden');
-    });
-  }
-</script>
+    <!-- Mobile Toggle -->
+    <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas=""></a>
+
+    <!-- Mobile Brand Logo -->
+    <div class="uk-navbar-content uk-visible-small">
+      <a class="tm-logo-small" href="/el/">
+        <img 
+          src="/images/logo/One_Healing___Logo___mirror___transparent_background1.png" 
+          alt="One Healing Logo" 
+          width="100" 
+          height="55" 
+          style="max-height: 45px; width: auto;"
+        />
+      </a>
+    </div>
+  </nav>
+</div>

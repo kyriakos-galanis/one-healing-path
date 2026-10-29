@@ -4,185 +4,137 @@ import Layout from '../../layouts/Layout.astro';
 
 <Layout 
   title="Επικοινωνια - onehealing.gr"
-  description="Επικοινωνήστε με τον ιατρό Παναγιώτη Γκίνη (gkinispan@gmail.com) για ραντεβού, πληροφορίες ή απορίες."
   breadcrumbs={[
     { label: 'Αρχική', href: '/el/' },
     { label: 'Επικοινωνία' }
   ]}
 >
-  <article class="bg-white">
-    <header class="border-b border-[#ded8cf] pb-3 mb-6">
-      <h1 class="text-2xl sm:text-3xl font-serif text-[#774737]">
-        Επικοινωνία
-      </h1>
-      <p class="text-xs sm:text-sm text-gray-600 mt-1 font-medium">
-        Παναγιώτης Γκίνης MD, CAc — Ψυχίατρος, Ψυχοθεραπευτής, Βελονιστής
-      </p>
-    </header>
+  <div class="page-content contact-page">
+    
 
-    <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
-      <!-- Contact Info Details (5 cols) -->
-      <div class="md:col-span-5 bg-[#faf8f5] border border-[#ded8cf] rounded-md p-6 space-y-5 text-sm text-gray-700">
-        <div>
-          <h2 class="font-serif text-lg text-[#774737] font-semibold mb-2">
-            Στοιχεία Επικοινωνίας
-          </h2>
-          <p class="text-xs text-gray-600 leading-relaxed">
-            Στην παρακάτω διεύθυνση ηλεκτρονικού ταχυδρομείου ή με την έτοιμη φόρμα επικοινωνίας, μπορείτε να μοιραστείτε την άποψή σας, κάποιο σχόλιο, απορίες για το onehealing.gr ή να ζητήσετε ένα ραντεβού.
-          </p>
-        </div>
+<div class="contact" itemscope="" itemtype="https://schema.org/Person">
+<div class="page-header">
+<h2>
+<span class="contact-name" itemprop="name">Παναγιώτης Γκίνης  MD</span>
+</h2>
+</div>
+<div class="accordion" id="slide-contact"> <div class="accordion-group"><div class="accordion-heading"><strong><a class="accordion-toggle" data-toggle="collapse" href="#basic-details">Επαφή</a></strong></div><div class="accordion-body collapse in" id="basic-details"><div class="accordion-inner">
+<div class="thumbnail pull-right">
+<img alt="Παναγιώτης Γκίνης  MD" itemprop="image" src="/images/logo/One_Healing___Logo___mirror___transparent_background1.png"/> </div>
+<dl class="contact-position dl-horizontal">
+<dt>Θέση:</dt>
+<dd itemprop="jobTitle">
+					Ψυχίατρος, Ψυχοθεραπευτής, Βελονιστής. Στην διεύθυνση email ή με την φόρμα επικοινωνίας μπορείτε να μοιραστείτε την εμπειρία σας, να σχολιάσετε ή να ζητήσετε περισσότερες πληροφορίες. Ευχαριστούμε πολύ για τη συμμετοχή σας.				</dd>
+</dl>
+<dl class="contact-address dl-horizontal" itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress">
+<dt>
+<span class="jicons-icons">
+<img alt="Διεύθυνση: " src="/media/contacts/images/con_address.png"/> </span>
+</dt>
+<dd>
+<span class="contact-street" itemprop="streetAddress">
+					Λεωφ. Περικλέους 3, τ.κ. 15561, στάση μετρό Χολαργός, απόσταση: 3 λεπτά περπάτημα.					<br/>
+</span>
+</dd>
+<dt>
+<span class="jicons-icons" itemprop="email">
+<img alt="Email: " src="/media/contacts/images/emailButton.png"/> </span>
+</dt>
+<dd>
+<span class="contact-emailto"><a href="mailto:gkinispan@gmail.com">gkinispan@gmail.com</a></span>
+</dd>
+<dt>
+<span class="jicons-icons">
+<img alt="Τηλέφωνο: " src="/media/contacts/images/con_tel.png"/> </span>
+</dt>
+<dd>
+<span class="contact-telephone" itemprop="telephone">
+			2112184212		</span>
+</dd>
+<dt>
+<span class="jicons-icons">
+<img alt="Κινητό: " src="/media/contacts/images/con_mobile.png"/> </span>
+</dt>
+<dd>
+<span class="contact-mobile" itemprop="telephone">
+			6909222551		</span>
+</dd>
+<dt>
+<span class="jicons-icons">
+</span>
+</dt>
+<dd>
+<span class="contact-webpage">
+<a href="/el/" itemprop="url" rel="noopener noreferrer" target="_blank">
+			/el/</a>
+</span>
+</dd>
+</dl>
+</div></div></div>
+<div class="accordion-group"><div class="accordion-heading"><strong><a class="accordion-toggle collapsed" data-toggle="collapse" href="#display-form">Φόρμα Επικοινωνίας</a></strong></div><div class="accordion-body collapse" id="display-form"><div class="accordion-inner">
+<div class="contact-form">
+<form action="/el/epikoinonia" class="form-validate form-horizontal well" id="contact-form" method="post">
+<fieldset>
+<legend>Αποστολή Email</legend>
+<div class="control-group field-spacer">
+<div class="control-label">
+<span class="spacer"><span class="before"></span><span class="text"><label class="" id="jform_spacer-lbl"><strong class="red">*</strong> Υποχρεωτικό πεδίο</label></span><span class="after"></span></span> </div>
+<div class="controls"> </div>
+</div>
+<div class="control-group">
+<div class="control-label">
+<label class="hasPopover required" data-content="Το όνομά σας" for="jform_contact_name" id="jform_contact_name-lbl" title="Όνομα">
+	Όνομα<span class="star"> *</span></label>
+</div>
+<div class="controls"><input aria-required="true" class="required" id="jform_contact_name" name="jform[contact_name]" required="" size="30" type="text" value=""/>
+</div>
+</div>
+<div class="control-group">
+<div class="control-label">
+<label class="hasPopover required" data-content="Διεύθυνση ηλεκτρονικού ταχυδρομείου της επαφής." for="jform_contact_email" id="jform_contact_email-lbl" title="Ηλεκτρονικό ταχυδρομείο">
+	Ηλεκτρονικό ταχυδρομείο<span class="star"> *</span></label>
+</div>
+<div class="controls"><input aria-required="true" autocomplete="email" class="validate-email required" id="jform_contact_email" name="jform[contact_email]" required="" size="30" type="email" value=""/></div>
+</div>
+<div class="control-group">
+<div class="control-label">
+<label class="hasPopover required" data-content="Πληκτρολογείστε το θέμα του μηνύματός σας εδώ." for="jform_contact_emailmsg" id="jform_contact_emailmsg-lbl" title="Θέμα">
+	Θέμα<span class="star"> *</span></label>
+</div>
+<div class="controls"><input aria-required="true" class="required" id="jform_contact_emailmsg" name="jform[contact_subject]" required="" size="60" type="text" value=""/>
+</div>
+</div>
+<div class="control-group">
+<div class="control-label">
+<label class="hasPopover required" data-content="Πληκτρολογείστε το μήνυμά σας." for="jform_contact_message" id="jform_contact_message-lbl" title="Μήνυμα">
+	Μήνυμα<span class="star"> *</span></label>
+</div>
+<div class="controls"><textarea aria-required="true" class="required" cols="50" id="jform_contact_message" name="jform[contact_message]" required="" rows="10"></textarea></div>
+</div>
+</fieldset>
+<fieldset>
+<div class="control-group">
+<div class="control-label">
+<label class="hasPopover required" data-content="Εισάγετε το κείμενο που βλέπετε στην εικόνα." for="jform_captcha" id="jform_captcha-lbl" title="Αποκλεισμός Αυτοματισμών (Captcha)">
+	Αποκλεισμός Αυτοματισμών (Captcha)<span class="star"> *</span></label>
+</div>
+<div class="controls"><div class="required g-recaptcha" data-callback="" data-error-callback="" data-expired-callback="" data-sitekey="6LczgFoUAAAAAN_HgA_rdOYckHsWrY5a2qq3i8Wg" data-size="normal" data-tabindex="0" data-theme="light" id="jform_captcha"></div></div>
+</div>
+</fieldset>
+<div class="control-group">
+<div class="controls">
+<button class="btn btn-primary validate" type="submit">Αποστολή Μηνύματος</button>
+<input name="option" type="hidden" value="com_contact"/>
+<input name="task" type="hidden" value="contact.submit"/>
+<input name="return" type="hidden" value=""/>
+<input name="id" type="hidden" value="1:panagiotis-ginis"/>
+<input name="7fd82782ea971fa3781372794b084ee7" type="hidden" value="1"/> </div>
+</div>
+</form>
+</div>
+</div></div></div>
+</div>
+</div>
 
-        <div class="pt-3 border-t border-[#e5dfd5] space-y-3 text-xs sm:text-sm">
-          <!-- Email -->
-          <div class="flex items-center gap-3">
-            <div class="w-8 h-8 rounded-full bg-[#f0eae1] text-[#774737] flex items-center justify-center shrink-0">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-              </svg>
-            </div>
-            <div>
-              <span class="block text-[11px] text-gray-500 uppercase tracking-wider">Email</span>
-              <a href="mailto:gkinispan@gmail.com" class="text-[#774737] hover:underline font-semibold">
-                gkinispan@gmail.com
-              </a>
-            </div>
-          </div>
-
-          <!-- Location -->
-          <div class="flex items-center gap-3">
-            <div class="w-8 h-8 rounded-full bg-[#f0eae1] text-[#774737] flex items-center justify-center shrink-0">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-              </svg>
-            </div>
-            <div>
-              <span class="block text-[11px] text-gray-500 uppercase tracking-wider">Τοποθεσία</span>
-              <span class="text-gray-800 font-medium">Αθήνα, Ελλάδα</span>
-            </div>
-          </div>
-
-          <!-- Facebook -->
-          <div class="flex items-center gap-3">
-            <div class="w-8 h-8 rounded-full bg-[#f0eae1] text-[#774737] flex items-center justify-center shrink-0">
-              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
-                <path d="M22.675 0h-21.35C.597 0 0 .597 0 1.326v21.348C0 23.403.597 24 1.326 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.597 1.323-1.326V1.326C24 .597 23.405 0 22.675 0z"/>
-              </svg>
-            </div>
-            <div>
-              <span class="block text-[11px] text-gray-500 uppercase tracking-wider">Social</span>
-              <a 
-                href="https://www.facebook.com/profile.php?id=61552501891015" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                class="text-[#774737] hover:underline font-semibold"
-              >
-                Σελίδα Facebook
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Contact Form (7 cols) -->
-      <div class="md:col-span-7 bg-[#fdfdfc] border border-[#ded8cf] rounded-md p-6">
-        <h2 class="font-serif text-lg text-[#774737] font-semibold mb-4">
-          Φόρμα Επικοινωνίας
-        </h2>
-
-        <form id="contact-form" class="space-y-4">
-          <div>
-            <label for="name" class="block text-xs font-semibold text-gray-700 uppercase tracking-wider mb-1">
-              Ονοματεπώνυμο *
-            </label>
-            <input 
-              type="text" 
-              id="name" 
-              name="name" 
-              required
-              placeholder="Το όνομά σας"
-              class="w-full px-3 py-2 text-sm border border-[#ded8cf] rounded bg-white focus:outline-none focus:border-[#774737]"
-            />
-          </div>
-
-          <div>
-            <label for="email" class="block text-xs font-semibold text-gray-700 uppercase tracking-wider mb-1">
-              Email *
-            </label>
-            <input 
-              type="email" 
-              id="email" 
-              name="email" 
-              required
-              placeholder="your@email.com"
-              class="w-full px-3 py-2 text-sm border border-[#ded8cf] rounded bg-white focus:outline-none focus:border-[#774737]"
-            />
-          </div>
-
-          <div>
-            <label for="subject" class="block text-xs font-semibold text-gray-700 uppercase tracking-wider mb-1">
-              Θέμα
-            </label>
-            <input 
-              type="text" 
-              id="subject" 
-              name="subject" 
-              placeholder="Θέμα μηνύματος"
-              class="w-full px-3 py-2 text-sm border border-[#ded8cf] rounded bg-white focus:outline-none focus:border-[#774737]"
-            />
-          </div>
-
-          <div>
-            <label for="message" class="block text-xs font-semibold text-gray-700 uppercase tracking-wider mb-1">
-              Μήνυμα *
-            </label>
-            <textarea 
-              id="message" 
-              name="message" 
-              rows="5" 
-              required
-              placeholder="Γράψτε το μήνυμά σας εδώ..."
-              class="w-full px-3 py-2 text-sm border border-[#ded8cf] rounded bg-white focus:outline-none focus:border-[#774737]"
-            ></textarea>
-          </div>
-
-          <div class="pt-2">
-            <button 
-              type="submit" 
-              class="border border-[#774737] bg-[#774737] text-white hover:bg-[#5e382b] px-6 py-2.5 rounded text-xs font-semibold uppercase tracking-wider transition-colors shadow-xs"
-            >
-              Αποστολή Μηνύματος
-            </button>
-          </div>
-
-          <div id="form-feedback" class="hidden p-3 rounded text-xs"></div>
-        </form>
-      </div>
-    </div>
-  </article>
+  </div>
 </Layout>
-
-<script>
-  const form = document.getElementById('contact-form') as HTMLFormElement | null;
-  const feedback = document.getElementById('form-feedback');
-
-  if (form && feedback) {
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const name = (document.getElementById('name') as HTMLInputElement)?.value;
-      const email = (document.getElementById('email') as HTMLInputElement)?.value;
-      const subject = (document.getElementById('subject') as HTMLInputElement)?.value || 'Μήνυμα από onehealing.gr';
-      const message = (document.getElementById('message') as HTMLTextAreaElement)?.value;
-
-      // Construct mailto fallback
-      const mailtoUrl = `mailto:gkinispan@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Από: ${name} (${email})\n\n${message}`)}`;
-      
-      feedback.className = 'p-3 rounded text-xs bg-green-50 text-green-800 border border-green-200 block';
-      feedback.textContent = 'Σας ευχαριστούμε! Το πρόγραμμα αλληλογραφίας σας ανοίγει για την αποστολή του μηνύματος...';
-
-      setTimeout(() => {
-        window.location.href = mailtoUrl;
-      }, 700);
-    });
-  }
-</script>
