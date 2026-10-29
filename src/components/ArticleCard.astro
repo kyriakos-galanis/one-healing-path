@@ -11,6 +11,7 @@ interface Props {
     author: string;
     image: string;
     intro: string;
+    featured_image?: boolean;
   };
 }
 
@@ -54,23 +55,29 @@ const { article } = Astro.props;
   </header>
 
   <div class="itemBlock">
+    {article.featured_image && article.image && (
+      <div class="itemImageBlock tm-article-featured-image">
+        <a class="itemImage uk-overlay" href={`/el/item/${article.slug}`} title={article.title}>
+          <img src={article.image} alt={article.title} itemprop="image" style="width: 100%; height: auto; display: block;" loading="lazy" />
+          <div class="uk-overlay-area"></div>
+        </a>
+      </div>
+    )}
     <div class="itemBody" itemprop="articleBody">
       <div class="itemIntroText">
-        {article.image && (
+        {!article.featured_image && article.image && (
           <p>
             <a href={`/el/item/${article.slug}`}>
-              <img src={article.image} alt={article.title} />
+              <img src={article.image} alt={article.title} style="max-width: 100%; height: auto; display: block;" loading="lazy" />
             </a>
           </p>
         )}
         <p>{article.intro}</p>
       </div>
 
-      <div class="itemReadMore">
-        <a class="k2ReadMore" href={`/el/item/${article.slug}`}>
-          Περισσότερα...
-        </a>
-      </div>
+      <a class="itemReadMore uk-button uk-button-line uk-button-large" href={`/el/item/${article.slug}`}>
+        Διαβάστε περισσότερα...
+      </a>
     </div>
   </div>
 </article>
